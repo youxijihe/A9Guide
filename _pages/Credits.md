@@ -1,14 +1,16 @@
 ---
-title: "Credits"
+title: "鸣谢"
 permalink: /credits.html
 ---
 
 **Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
 {: .notice--primary}
 
+如果忘了你老爷子，可以联系我加上
 If I forgot you here, contact me and I'll add your name.
 {: .notice}
 
++ **plailect**
 + AHP_Person
 + Al3x_10m
 + aliaspider

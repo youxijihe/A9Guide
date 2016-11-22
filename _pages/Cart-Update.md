@@ -1,23 +1,23 @@
 ---
-title: "Cart Update"
+title: "卡带升级"
 permalink: /cart-update.html
 ---
 
-All game carts contain a copy of the required system version to play it, allowing anyone on a lower version to use the cartridge to update to that version (even without an internet connection).
+所有的游戏都包含一份必需系统的备份，允许低版本通过卡带升级到那个版本（即使没有联网）
 {: .notice--info}
 
-Cart Updates will only deliver updates to core features, such as the System Settings, Home Menu, Nintendo 3DS Sound, etc. Cart Updates will not deliver updates to Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza or eShop.
+卡带升级只会升级核心功能,像系统设置（System Settings）, 主菜单（Home Menu）, 声音系统（Nintendo 3DS Sound）等。 卡带升级不会涉及网络功能，如 System Transfer, 浏览器（Internet Browser）, StreetPass Mii Plaza or eShop.
 {: .notice--info}
 
-This means that a cart update will NOT install a browser if you do not already have one. This will **only** update the actual system version *(for example, 2.1.0-0 -> 6.0.0-0)*. The last number *(the -0)* will **not** change.
+这意味着如果你没有浏览器，卡带升级并不会安装浏览器. 它**只**实际的系统版本 *(比如, 2.1.0-0 -> 6.0.0-0)*. 最后的字母 *( -0)* **不会** 改变.
 {: .notice--warning}
 
-**Updating with a game cart containing the version 9.9.0 or above will remove your browser!**
+**用带9.9.0或以上系统的卡带升级，将会删除你的浏览器!**
 {: .notice--danger}
 
-#### What you need
+#### 你需要
 
-* A game cart that [contains the version](http://www.3dsdb.com/) specified in the chart
+* 卡带 [contains the version](http://www.3dsdb.com/) specified in the chart
 
 #### Instructions
 

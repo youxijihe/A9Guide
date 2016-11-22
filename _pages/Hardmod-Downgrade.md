@@ -1,5 +1,5 @@
 ---
-title: "Hardmod Downgrade"
+title: "硬件降级"
 permalink: /hardmod-downgrade.html
 ---
 

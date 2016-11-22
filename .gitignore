@@ -3,6 +3,7 @@
 .DS_Store
 .jekyll-metadata
 .sass-cache
+.idea
 _asset_bundler_cache
 _site
 codekit-config.json

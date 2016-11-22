@@ -1,17 +1,16 @@
 ---
-title: "Donations"
+title: "捐助"
 permalink: /donations.html
 ---
 
-## If you appreciate this guide, I accept donations.
+## 如果各位大爷喜欢这个向导，可以施舍点服务器费用.
 {: .text-center}
 {: .notice--success}
 
-![Bitcoin](images/donate_64.png){: .align-center}
-17qitDUbhhd8PdEa6kxJWSqbNvg9PRS4rT
+![支付包](images/alipay.jpg){: .align-center}
+sainthsu@vip.qq.com
 {: .text-center}
 
 
-![Paypal](images/paypal.jpg){: .align-center}
-devonmaloney@hotmail.com
+![微信](images/wechat.jpg){: .align-center}
 {: .text-center}

@@ -1,31 +1,31 @@
 ---
-title: "Get Started (New 3DS - USA)"
+title: "开始干活 (New 3DS - USA美版)"
 permalink: /get-started-(new-3ds-usa).html
 ---
 
-Select the appropriate page for your version from the chart below.
+请在下面表格中选择适合你版本的页面进入
 {: .notice--primary}
 
 {% capture notice-1 %}
-The first two columns of the chart refer to the last number of your version (which corresponds to the browser version installed to the system). If the version is -0 then you do not have a browser, while any number above -0 indicates a browser is installed.
+后两列根据你系统版本的后两位数字判断(对应系统浏览器的版本). 如果版本是 -0 说明你没有浏览器，数字大于 -0 代表有浏览器.
 
-The "from" and "to" fields are inclusive. This means that, for example, the "from 9.0.0 to 9.2.0" row includes 9.0.0, 9.1.0, and 9.2.0.
+"从"和"到"是包含的。这意味着，举例说, "从 9.0.0 到 9.2.0" 行 包括 9.0.0, 9.1.0 和 9.2.0.
 
-In the case of "5.0.0-0U" for example, you would follow the "No Browser" column and 5.0.0 to 5.1.0 row because the system is on the a system version in that range and has no browser installed.
+用"5.0.0-0U" 做例子,你应该看"无浏览器"列和5.0.0到5.1.0行，因为系统版本在范围内并没有安装浏览器
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-For all versions you can [Cart Update](cart-update) to a higher version in the same column to follow its instructions instead.
+对于所有版本来说，你都可以用[卡带升级](cart-update) 到高版本，然后再按照下表的相应版本指引继续。
 {: .notice--warning}
 
-If you updated with a game cart containing the version 9.9.0 or above *(meaning that you have a version on 9.9.0 or above, but your browser is on -25 or lower, such as 10.2.0-24)*, your browser was removed and you will need to use the "No Browser" column.
+如果你升级用的卡带自带9.9.0或更高版本 *(意味着你可以升至9.9.0或更高, 但是你的浏览器版本是-25或更低, 比如10.2.0-24)*, 你的浏览器会被删除，你需要看"无浏览器"列.
 {: .notice--warning}
 
-The device version can be found at the bottom right of the top screen of the System Settings.
+设备的版本可以通过系统设置的上屏右下角看到
 {: .notice--success}
 
-| From | To | No Browser | Browser |
+| 从 | 到 | 无浏览器 | 有浏览器 |
 |:-:|:-:|:-:|:-:|
 | 9.0.0 | 10.7.0 | [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser)) | [Homebrew Launcher (Browser)](homebrew-launcher-(browser)) |
 | 11.0.0 | 11.2.0 | [NFIRM Downgrade](nfirm-downgrade) | [NFIRM Downgrade](nfirm-downgrade) |
