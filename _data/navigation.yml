@@ -1,0 +1,26 @@
+# main links links
+main:
+  - title: "FAQ"
+    url: /faq
+
+  - title: "故障检测"
+    url: /troubleshooting
+
+  - title: "捐助"
+    url: /donations
+
+  - title: "鸣谢"
+    url: /credits
+
+  - title: "更新升级A9LH"
+    url: /updating-a9lh
+
+  - title: "改变分区"
+    url: /region-changing
+
+  - title: "NAND大小和OPT信息"
+    url: /nand-size
+
+  - title: "OTP Info"
+    url: /otp-info
+
