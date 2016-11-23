@@ -1,4 +1,4 @@
-{
+bundle exec jekyll serve{
   "name": "minimal-mistakes",
   "version": "3.4.8",
   "description": "Minimal Mistakes Jekyll theme npm build scripts",
