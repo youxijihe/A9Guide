@@ -1,21 +1,21 @@
 ---
-title: "NAND Size"
+title: "NAND大小"
 permalink: /nand-size.html
 ---
 
-A valid NAND backup should be one of the following sizes in most situations.
+大多少情况下，一个可用的NAND备份是下面大小中的一个
 {: .notice--primary}
 
-Occasionally, you will get a backup with a different size than one of these listed. It is fine for a backup to be larger than expected, just ensure that it is never *smaller* than the sizes listed.
+偶尔,你会备份出跟下面表中不一样的大小。比期望的大是没事的，但请注意*绝不会小于*比下面列着的大小
 {: .notice--info}
 
-Note that a *min size* NAND will always be the smallest possible size for the purpose of saving space, and may not match the size of other NAND backups from your device. This is fine, just make sure that it matches one of the sizes on this page.
+注意*小容量*的NAND经常会得到小一点的备份。只要符合其中页面中的一个就行.
 {: .notice--info}
 
-The brand name refers to the manufacturer of the NAND chip in your device, **not** your SD card.
+这些品牌是你设备上NAND芯片的牌子， **不是**你的SD卡。
 {: .notice--warning}
 
-**Your backup should match one of the sizes on this page; if it does not, you should delete it and make a new one!**
+**你的备份应该是下面大小中的一个; 如果不是你需要删掉重做!**
 {: .notice--danger}
 
 ## 2DS:    

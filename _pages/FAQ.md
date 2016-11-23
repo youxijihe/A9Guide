@@ -3,53 +3,53 @@ title: "FAQ"
 permalink: /faq.html
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes, but only by [downgrading its NFIRM](nfirm-downgrade) (see [this](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
+<a name="faq_latestfw" />**Q:** *老子/老娘是最新版，还能破吗?*    
+**A:** 能, 但是只能通过[降级NFIRM](nfirm-downgrade) (看[这里（英文）](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
 
-<a name="faq_updatecfw" />**Q:** *How do I update Luma3DS?*    
-**A:** Use Luma3DS Updater
+<a name="faq_updatecfw" />**Q:** *怎么升级Luma3DS?*    
+**A:** 用Luma3DS Updater
 
-<a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
-**A:** No. arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
+<a name="faq_gatewaysky" />**Q:** *我听说有些东西需要花钱 (Gateway, Sky3DS, 等), 这些东西我需要吗?*    
+**A:** 不. arm9loaderhax是在启动载入破解的先进方式，为将来真正的自制系统提供了可能。
 
-<a name="faq_gatewaysaves" />**Q:** *How do I move saves from an existing Gateway setup to device installed games?*    
-**A:** See [this](https://gbatemp.net/threads/425743/)
+<a name="faq_gatewaysaves" />**Q:** *我怎么从现存的Gateway中转移游戏存档?*    
+**A:** 看 [这里（英）](https://gbatemp.net/threads/425743/)
 
-<a name="faq_need" />**Q:** *What do I need to do this guide?*    
-**A:** This guide can be completely done with free software and (if you have no browser) a compatible game   
+<a name="faq_need" />**Q:** *这个向导我需要做什么?*    
+**A:** 可以通过完全免费的软件或一个适当的游戏(如果你没浏览器)完成指导
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are now *basically* impossible unless you ignore/circumvent all safety checks.
+<a name="faq_risky" />**Q:** *破解有风险吗?*    
+**A:** 现在变砖 *基本上*是不可能的，除非你不注意看或忽略知道中的安全提示
 
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
 **A:** Yes! Custom Firmware not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
 
-<a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
-**A:** Luma3DS supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+<a name="faq_regionfree" />**Q:** *可以玩其他区域的游戏吗?*    
+**A:** Luma3DS 支持全区域补丁,能安装其他区域的游戏
 
-<a name="faq_updates" />**Q:** *Is it safe to update CFW SysNAND?*    
-**A:** Yes. This is safe, stop asking about it.
+<a name="faq_updates" />**Q:** *升级自制的SysNAND安全吗?*    
+**A:** 安全，勿问.
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [#3dshacks on Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) or [3DS Hacking on Discord](https://discord.gg/MWxPgEp).  
+<a name="faq_support" />**Q:** *怎么寻求帮助?*    
+**A:** 在[游戏集合](https://youxijihe.com)发帖子询问
 
-<a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB (or smaller) SD card?*    
-**A:** Thanks to the new CTRNAND method, yes!
+<a name="faq_le4gbsd" />**Q:** *能用4GB (或更小的) SD卡?* 
+**A:** Thanks to the new CTRNAND method, 可以!
 
-<a name="faq_ge128gbsd" />**Q:** *Can I use a 128 GB (or larger) SD card?*    
-**A:** Yes, but some users have reported slowdowns when using such large sizes. Note that you cannot format the card with exFAT; you need to format it with FAT32.
+<a name="faq_ge128gbsd" />**Q:** *能用128 GB (或更大)的SD卡?*    
+**A:** 可以, 但是有人说速度会变慢. 注意你不能格式化成exFAT;**必须是FAT32**.
 
-<a name="faq_movesd" />**Q:** *How do I move to a new SD card at the end of this?*    
-**A:** Just copy all the files to the new SD card.
+<a name="faq_movesd" />**Q:** *最好我要换一张新SD卡?*    
+**A:** 复制所以文件到新卡中.
 
-<a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
-**A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
+<a name="faq_NNID" />**Q:** *能保接留NNID吗?*    
+**A:** 如果你一开始就有NNID，最好还是保留的.
 
 <a name="faq_systransfer" />**Q:** *What about System Transfers?*    
 **A:** Once you have completed the guide, you can system transfer to and from an arm9loaderhax'd 3DS or 2DS exactly like you would a regular stock console or EmuNAND (you will lose any non-legitimate games/themes/DLC in the transfer; saves will stay even for games that are lost).
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
-**A:** All you need is the ability to put files on an SD card!
+<a name="faq_nopc" />**Q:** *没电脑能做吗 (比如android手机)?*    
+**A:** 你只要能往SD卡里放文件就可以!
 
-<a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
-**A:** Please look at the [troubleshooting guide](troubleshooting).
+<a name="faq_problem" />**Q:** *救命! 没法启动啊，怎么办...*    
+**A:** 请看 [疑难杂症](troubleshooting).

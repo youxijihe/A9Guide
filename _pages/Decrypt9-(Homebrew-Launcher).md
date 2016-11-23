@@ -22,7 +22,7 @@ permalink: /decrypt9-(homebrew-launcher).html
 5. 执行"NAND Backup (min size)"，然后用方向键选择一个诸如`NANDmin.bin`的名字按(A)保存
 6. 返回主界面
 
-如果你是老3DS, 请前往[2.1.0 ctrtransfer](2.1.0-ctrtransfer)    
+如果你是老3DS, 请前往[2.1.0 ctrtransfer](2.1.0-ctrtransfer) 
 {: .notice--primary}
 
 如果你是New 3DS, 按(Start)重启后继续 [安装arm9loaderhax](installing-arm9loaderhax)

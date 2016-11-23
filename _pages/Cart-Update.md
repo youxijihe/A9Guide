@@ -17,12 +17,12 @@ permalink: /cart-update.html
 
 #### 你需要
 
-* 卡带 [contains the version](http://www.3dsdb.com/) specified in the chart
+*  [这个表格](http://www.3dsdb.com/)中包含你需要的版本的卡带
 
-#### Instructions
+#### 指导
 
-1. Boot your 3DS into recovery mode by holding L+R+A+UP while powering on
-2. Decline the update and reboot
-3. Put the game in the system
-4. Attempt to launch the game
-5. Update when prompted
+1. 启动时按住L+R+A+上进入恢复模式
+2. 拒绝升级（Decline the update）然后重启
+3. 把游戏插上
+4. 试着载入游戏
+5. 询问是确定升级
