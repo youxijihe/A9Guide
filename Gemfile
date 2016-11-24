@@ -9,7 +9,8 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 3.3.0"
+gem "minimal-mistakes-jekyll"
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.

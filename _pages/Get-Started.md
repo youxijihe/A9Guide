@@ -9,10 +9,10 @@ permalink: /get-started.html
 点击你的设备图带你到相应的页面
 {: .notice--primary}
 
-不同的型号,版本,和区域需要不同的步骤来完成安装arm9loaderhax自定义固件的. 下面的一系列页面会指导你如何开始.
+不同的型号,版本,和区域需要不同的步骤来完成安装arm9loaderhax自定义固件. 下面的一系列页面会指导你如何开始.
 {: .notice--info}
 
-如果你之前破解过并且有制作虚拟系统（EmuNAND）, 只要跟随在SysNAND上步骤.你的数据最后从虚拟系统里转到新安装的A9LH中。
+如果你之前破解过并且有制作虚拟系统（EmuNAND）, 只要跟随在SysNAND上的步骤.你的数据最后可以从虚拟系统里转到新安装的A9LH中。
 {: .notice--info}
 
 在开始之前,你也许需要检查一下的你的SD卡。使用相应工具（括号内是操作系统） [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!

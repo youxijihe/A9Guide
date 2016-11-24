@@ -1,12 +1,12 @@
 ---
-title: "Region Changing"
+title: "改变区域"
 permalink: /region-changing.html
 ---
 
-This is add-on section for region changing your arm9loaderhax CFW SysNAND. This is done by installing the 9.2.0 ctrtransfer image for the region you want to switch to and modifying your SecureInfo_A file.
+这是改变你arm9loaderhax引导的自制SysNAND系统区域准备的额外章节.通过安装你需要区域的9.2.0 ctrtransfer镜像然后修改SecureInfo_A文件来达成的.
 {: .notice--primary}
 
-**Region changing is almost completely unnecessary since Luma3DS supports out of region games and individual [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).**
+**因为Luma3DS支持跨区游戏，所以改变区域没有任何必要，所以就偷懒不翻译了 [title region emulation](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).**
 {: .notice--info}
 
 This process will unlink your NNID from the system, since it will no longer be compatible with it. NNID's are locked to the region of the device that created them, and cannot be transferred between regions without [a very complex and advanced process](https://gist.githubusercontent.com/yifanlu/e80db121d38aceb8cca0e03cefd5853b/raw/3c4dd89869156ca0f945a2791e699acfdb32b510/gistfile1.txt).
