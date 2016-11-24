@@ -1,21 +1,21 @@
 ---
-title: "Installing arm9loaderhax"
+title: "安装 arm9loaderhax"
 permalink: /installing-arm9loaderhax.html
 ---
 
-The final Step of this guide is to install arm9loaderhax and setup Luma3DS to run just milliseconds into the boot. This is accomplished by using SafeA9LHInstaller by [AuroraWright](https://github.com/AuroraWright/).
+这个向导最终的结果时安装arm9loaderhax和设置Luma3DS让你几毫秒就能启动系统. 这是使用[AuroraWright](https://github.com/AuroraWright/)的SafeA9LHInstaller来完成的.
 {: .notice}
 
-This will install [AuroraWright's Fork](https://github.com/AuroraWright/arm9loaderhax) of arm9loaderhax.
+这会安装[AuroraWright's Fork](https://github.com/AuroraWright/arm9loaderhax) 修改的arm9loaderhax.
 {: .notice--info}
 
 We will also setup the ability to launch payloads from arm9loaderhax, giving us the ability to unbrick our SysNAND from situations that would normally brick us by restoring from backup.
 {: .notice--info}
 
-**You cannot use another console's OTP or you will brick GUARANTEED.**
+**你不能使用其它设备的OTP否则你肯定变砖。**
 {: .notice--danger}
 
-#### Overview of steps
+#### 步骤总览
 
 In this section, we will go through the process that all the other steps have led up to: actually installing arm9loaderhax.
 
@@ -27,10 +27,10 @@ In this case, we use Luma3DS by [AuroraWright](https://github.com/AuroraWright/)
 
 Once arm9loaderhax is installed and Luma3DS is setup with the correct options, we then restore our previous backup.
 
-During this process, we also setup programs such as the following:
-+  **FBI** *(installs CIA formatted games and applications)*
-+  **Luma3DS Updater** *(updates our CFW installation easily)*
-+  **Hourglass9** *(multipurpose tool which can do NAND and cartridge functions)*
+在着过程中，我们还会安装下面的常用软件:
++  **FBI** *(安装CIA格式的游戏和应用)*
++  **Luma3DS Updater** *(方便升级自制系统)*
++  **Hourglass9** *(能做NAND和卡带相关功能的多用途工具)*
 
 #### What you need
 

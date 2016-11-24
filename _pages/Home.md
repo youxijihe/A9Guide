@@ -8,7 +8,7 @@ header:
   cta_label: "开始"
   cta_url: "/get-started"
   caption:
-excerpt: '一个详细阐述3ds自定义固件的向导, <br /> 从陈旧的破解方式转向arm9loaderhax。<br />'
+excerpt: '一个详细阐述破解3ds做自定义固件的向导, <br /> 从陈旧的破解方式转向arm9loaderhax。<br />'
 ---
 
 **要使用这个向导中的[torrent](https://en.wikipedia.org/wiki/Torrent_file)文件，你需要[迅雷](http://www.xunlei.com)或者[百度网盘](http://pan.baidu.com)离线下载功能，当然向导也提供网盘下载**
@@ -31,7 +31,7 @@ CFW 能够很容易的在9.2.0-20或以下的主机中安装。其它版本能�
 
 ## 这个向导是用来安装什么的?
 
-这个指导是让一台未破解的机器完全变成一台强大的arm9loaderhax自制系统。在有些版本, 它会用homebrew作为跳出点（jumping off point）, 但是自制固件依然是目标Custom Firmware is still the goal.
+这个指导是让一台未破解的机器完全变成一台强大的arm9loaderhax自制系统。在有些版本, 它会用homebrew作为跳出点（jumping off point）, 但是自制固件依然是目标。
 
 Arm9loaderhax是最新最好载入自制系统的方式，能几秒启动并让我们几乎能完全掌控系统，相当于Wii上的BootMii。
 

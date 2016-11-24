@@ -1,21 +1,21 @@
 ---
-title: "NFIRM Downgrade"
+title: "NFIRM 降级"
 permalink: /nfirm-downgrade.html
 ---
 
-**If you are on 11.0.0 or 11.1.0, do NOT update to 11.2.0. A new update will be coming soon that allows for DSiWare NFIRM Downgrading _without_ a second 3DS or hardmod for versions under 11.2.0.**
+**如果你是11.0.0或11.1.0,不要更新到11.2.0。新的更新将会推出，使DSiWare 降级NFIRM，_无需_使用另一台3DS或11.2.0以下的硬改**
 {: .notice--primary}
 
-If you are between 11.0.0 and 11.2.0, you must follow this guide to downgrade your NFIRM using one of the methods at the bottom of this page to directly dump and restore your NAND.
+如果你是11.0.0到11.2.0的版本, 必需跟随页面最底下的方式直接dump和保存你的NAND来降级NFIRM。
 {: .notice--info}
 
-Both of these are working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws).
+这个方法都是通过"FIRM partitions known-plaintext" [漏洞](https://www.3dbrew.org/wiki/3DS_System_Flaws)来实行和工作的.
 {: .notice--info}
 
-This will work on New 3DS, Old 3DS, and 2DS (although the DSiWare method has some restrictions).
+适用于New 3DS, 老 3DS 和 2DS (尽管DSiWare的方式有些限制).
 {: .notice--success}
 
 ---
 
-+ Use [this](hardmod-downgrade) link to downgrade your NFIRM with a [hardmod](https://gbatemp.net/threads/414498/)    
-+ Use [this](dsiware-downgrade) link to downgrade your NFIRM with DSiWare and a second 3DS (which already has CFW)
++ 参考[这里](hardmod-downgrade) 利用[硬改](https://gbatemp.net/threads/414498/)  降级NFIRM   
++ 参考[这里](dsiware-downgrade) 利用DSiWare和另一台3DS (已有自定义固件)降级NFIRM 

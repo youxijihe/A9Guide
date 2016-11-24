@@ -62,7 +62,7 @@ Homebrew Launcher有很多入口和加载的方式。最常用的是browserhax�
 8. 将浏览器导向 `http://plail.ueuo.com/3dsbrowserhax_auto.php`
     + 你也可以通过扫描QR二维码进入 (在主菜的按 (L + R) ,然后点击下屏的QR二维码图标)     
 ![browserhax_auto](http://plail.ueuo.com/3dsbrowserhax_auto_qrcode.png)
-    + If you get an error, [follow this troubleshooting guide](troubleshooting#ts_browser)
+    + 如果出错, [请看故障检测指导](troubleshooting#ts_browser)
 9. 你的主机会进入homebrew菜单
 
 ##### V -  menuhax

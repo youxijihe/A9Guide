@@ -1,37 +1,36 @@
 ---
-title: "Homebrew Launcher (No Browser)"
+title: "Homebrew Launcher (无浏览器)"
 permalink: /homebrew-launcher-(no-browser).html
 ---
-
-The Homebrew Launcher has many different entrypoints, or methods of launching. The most common is browserhax, but for devices that can't use it, this page has many alternative options.
+Homebrew Launcher有很多入口和加载的方式。最常用的是browserhax（浏览器破解）, 只需内置浏览器即可载入。但是有些设备不能用，这个页面就提供了许多其它可代替的选项。
 {: .notice}
 
-If you do not already own any of these games and do not have another 3DS that can access the Homebrew Launcher, the cheapest option is to buy a "Nintendo Selects" copy of [Ocarina of Time 3D](https://amzn.to/2fkaKdp) (ensure you get the correct cartridge for your region) and a [Powersaves](http://amzn.to/2fb3VY7) (compatible with all regions), then use oot3dhax from the chart below.
+如果你没有下面的游戏或者无法通过其它入口进入Homebrew Launcher,最便宜的选择是买一张"任天堂精选"（Nintendo Selects）的 _Ocarina of Time 3D时之笛_ (请确保选择了正确的区域卡带) 或着 一个 [修改器Powersaves](https://s.click.taobao.com/dMPSaMx) (兼容所有区域), 使用下面表中的oot3dhax破解.
 {: .notice--info}
 
-Note that if you are on 11.2.0 and have NFIRM downgraded, all 11.1.0 compatible exploits will also be compatible with your 11.2.0 NFIRM downgraded system.
+如果你时11.2.0，并做了NFIRM降级,所有11.1.0兼容的漏洞也兼容做过NFIRM降级的11.2.0.
 {: .notice--info}
 
-#### What you need
+#### 你需要什么
 
-+ The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
++ Homebrew launcher[Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
-#### Instructions
+#### 指导
 
-1. Copy _the contents of_ the `starter.zip` to the root of your SD card
-2. Use one of the following alternate entrypoints to get into the homebrew launcher:
+1. 将`starter.zip`解压后的内容复制到SD卡根目录
+2. 选择下列入口中的一个进入homebrew launcher:
 
-| <sub> | <sub>Requires | <sub>Editions | <sub>Devices | <sub>Regions | <sub>Game Versions | <sub>System Versions |
+| <sub> | <sub>需要 | <sub>Editions | <sub>设备 | <sub>区域 | <sub>游戏版本 | <sub>系统版本 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| <sub>[oot3dhax](https://github.com/yellows8/oot3dhax) | <sub>[*Ocarina of Time 3D*](https://amzn.to/2fkaKdp), <br> Either a powersaves or another 3DS which already has the Homebrew Launcher | <sub>Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-X up to and including 11.2.0-X |
-| <sub>[smashbroshax](https://gbatemp.net/threads/397194/) | <sub>[*Super Smash Bros*](https://amzn.to/2ftGA72) | <sub>Cart, eShop | <sub>New  | <sub>EUR, JPN, USA | <sub><1.1.3, <br> Carts with "amiibo" on the cover are preinstalled with v1.1.4 | <sub>9.0.0-X up to and including 11.2.0-X |
-| <sub>[supermysterychunkhax](https://smd.salthax.org/) | <sub>[*Pokemon Super Mystery Dungeon*](https://amzn.to/2ebxZ75), <br> Another 3DS which already has the Homebrew Launcher | <sub>Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.9.0-X (USA/JPN) / 10.2.0-X (EUR) up to and including 11.0.0-X |
+| <sub>[oot3dhax](https://github.com/yellows8/oot3dhax) | <sub>[*Ocarina of Time 3D时之笛*](https://amzn.to/2fkaKdp), <br> 一个修改器或者另一台可以进入Homebrew Launcher的3DS | <sub>Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-X 以上包含11.2.0-X |
+| <sub>[smashbroshax](https://gbatemp.net/threads/397194/) | <sub>[*Super Smash Bros大乱斗*](https://amzn.to/2ftGA72) | <sub>Cart, eShop | <sub>New  | <sub>EUR, JPN, USA | <sub><1.1.3, <br> Carts with "amiibo" on the cover are preinstalled with v1.1.4 | <sub>9.0.0-X 以上包含 11.2.0-X |
+| <sub>[supermysterychunkhax](https://smd.salthax.org/) | <sub>[*Pokemon Super Mystery Dungeon*](https://amzn.to/2ebxZ75), <br> 另一台可以进入Homebrew Launcher的3DS | <sub>Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.9.0-X (USA/JPN) / 10.2.0-X (EUR) 以上包含 11.0.0-X |
 | <sub>[freakyhax](http://plutooo.github.io/freakyhax/) | <sub>[*Freakyforms Deluxe*](https://amzn.to/2f6eHO7) | <sub>eShop, Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-X up to and including 11.1.0-X |
-| <sub>[basehaxx](http://mrnbayoh.github.io/basehaxx/) | <sub>*Pokemon [Omega Ruby](https://amzn.to/2eRILNQ)/[Alpha Sapphire](https://amzn.to/2ebGrmN)*, <br> Another 3DS which already has the Homebrew Launcher | <sub>Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>1.0, 1.4 | <sub>9.0.0-X up to and including 11.0.0-X |
-| <sub>[BASICSploit](https://mrnbayoh.github.io/basicsploit/) | <sub>[*SmileBASIC*](https://www.nintendo.com/games/detail/eYURHNjVdfyrnA3OJGfmlMYIrJUzgOcv) | <sub>eShop | <sub>New, Old, 2DS | <sub>USA | <sub>3.2.1 | <sub>9.0.0-X up to and including 11.0.0-X |
-| <sub>[smilehax](https://plutooo.github.io/smilehax/) | <sub>[*SmileBASIC*](https://www.nintendo.com/games/detail/eYURHNjVdfyrnA3OJGfmlMYIrJUzgOcv) | <sub>eShop | <sub>New, Old, 2DS | <sub>JPN, USA | <sub>3.3.1 | <sub>9.0.0-X up to and including 11.0.0-X |
-| <sub>[stickerhax](https://github.com/yellows8/stickerhax) | <sub>[*Paper Mario: Sticker Star*](https://amzn.to/2f6aDx8), <br> Another 3DS which already has the Homebrew Launcher | <sub>eShop, Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, KOR, USA | <sub>All | <sub>9.0.0-X up to and including 11.2.0-X |
-| <sub>[Ninjhax 2](http://smealum.github.io/ninjhax2/) | <sub>[*Cubic Ninja*](https://amzn.to/2eRI1by) | <sub>eShop, Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-X up to and including 11.2.0-X |
+| <sub>[basehaxx](http://mrnbayoh.github.io/basehaxx/) | <sub>*Pokemon [Omega Ruby红宝石](https://amzn.to/2eRILNQ)/[Alpha Sapphire蓝宝石](https://amzn.to/2ebGrmN)*, <br> 另一台可以进入Homebrew Launcher的3DS | <sub>Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>1.0, 1.4 | <sub>9.0.0-X 以上包含 11.0.0-X |
+| <sub>[BASICSploit](https://mrnbayoh.github.io/basicsploit/) | <sub>[*SmileBASIC*](https://www.nintendo.com/games/detail/eYURHNjVdfyrnA3OJGfmlMYIrJUzgOcv) | <sub>eShop | <sub>New, Old, 2DS | <sub>USA | <sub>3.2.1 | <sub>9.0.0-X 以上包含 11.0.0-X |
+| <sub>[smilehax](https://plutooo.github.io/smilehax/) | <sub>[*SmileBASIC*](https://www.nintendo.com/games/detail/eYURHNjVdfyrnA3OJGfmlMYIrJUzgOcv) | <sub>eShop | <sub>New, Old, 2DS | <sub>JPN, USA | <sub>3.3.1 | <sub>9.0.0-X 以上包含 11.0.0-X |
+| <sub>[stickerhax](https://github.com/yellows8/stickerhax) | <sub>[*Paper Mario: Sticker Star*](https://amzn.to/2f6aDx8), <br> 另一台可以进入Homebrew Launcher的3DS | <sub>eShop, Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, KOR, USA | <sub>All | <sub>9.0.0-X 以上包含 11.2.0-X |
+| <sub>[Ninjhax 2](http://smealum.github.io/ninjhax2/) | <sub>[*Cubic Ninja立方忍者*](https://amzn.to/2eRI1by) | <sub>eShop, Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-X 以上包含 11.2.0-X |
 
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
@@ -47,8 +46,8 @@ amzn_assoc_asins = "B01AC3ZDCE,B00DD0B1R0,B00YC7DZP4,B00IVJ1M7M,B008YYSBR8,B004S
 </script>
 <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
 
-If you are above the version 9.2.0, continue to [9.2.0 Downgrade](9.2.0-downgrade)
+如果你大于9.2.0, 继续到 [9.2.0 降级](9.2.0-downgrade)
 {: .notice--primary}
 
-If you are on the version 9.2.0 or below, continue to [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
+如果你是 9.2.0或以下, 继续到 [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
 {: .notice--primary}

@@ -1,12 +1,12 @@
 ---
-title: "DSiWare Downgrade"
+title: "DSiWare 降级"
 permalink: /dsiware-downgrade.html
 ---
 
-**If you are on 11.0.0 or 11.1.0, do NOT update to 11.2.0. A new update will be coming soon that allows for DSiWare NFIRM Downgrading _without_ a second 3DS or hardmod for versions under 11.2.0.**
+**如果你是11.0.0或11.1.0,不要更新到11.2.0。新的更新将会推出，使DSiWare 降级NFIRM，_无需_使用另一台3DS或11.2.0以下的硬改.**
 {: .notice--primary}
 
-If you are between versions 11.0.0 and 11.2.0, you must follow this guide to downgrade your NATIVE_FIRM using DSiWare and a second 3DS which has already has a Custom Firmware installed on it in order to dump and restore your NAND.
+如果你是11.0.0到11.2.0的版本, 必需跟随向导，利用DSiWare和另一台3DS来dump和保存你的NAND以达到降级NFIRM的目的.
 {: .notice}   
 
 If you are below 11.2.0 on either device, then you should do the ctr-httpwn steps (when prompted) on each device under 11.2.0 to allow you to System Transfer with them.

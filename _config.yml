@@ -11,14 +11,14 @@ title                    : "A9Guide"
 title_separator          : "-"
 name                     : "Youxijihe"
 description              : "详细arm9loaderhax破解教材"
-url                      : "http://3ds.youxijihe.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://youxijihe.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/A9Guide" # the subpath of your site, e.g. "/blog"
 repository               : "youxijihe/A9Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "custom"# false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
