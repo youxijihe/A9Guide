@@ -9,7 +9,7 @@ permalink: /h2testw-(windows).html
 根据容量的大小和电脑的速度,这个过程可能会持续几个小时!
 {: .notice--info}
 
-此页只适用Windows用户。如果你不是Windows, 请查看 [F3 (linux)](f3-(linux)) 或者[F3X (mac)](f3x-(mac)) 页面。
+此页只适用Windows用户。如果你不是Windows, 请查看 [F3 (linux)](f3-(linux).html) 或者[F3X (mac)](f3x-(mac).html) 页面。
 {: .notice--info}
 
 #### 你需要什么
@@ -34,5 +34,5 @@ permalink: /h2testw-(windows).html
 如果显示其它信息,你的SD卡或许有坏道或者损坏了，你得换一张了
 {: .notice--danger}
 
-返回到[开始](Get-Started)
+返回到[开始](Get-Started.html)
 {: .notice--primary}

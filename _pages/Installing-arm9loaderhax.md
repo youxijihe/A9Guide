@@ -58,7 +58,7 @@ permalink: /installing-arm9loaderhax.html
 
 **如果你使用损坏的卡，有可能变砖头!**
 
-**如果觉得SD卡有可能损坏了,可使用这些工具检测[H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!**
+**如果觉得SD卡有可能损坏了,可使用这些工具检测[H2testw (Windows)](h2testw-(windows).html), [F3 (Linux)](f3-(linux).html), or [F3X (Mac)](f3x-(mac).html)!**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-5 | markdownify }}</div>
@@ -99,8 +99,8 @@ permalink: /installing-arm9loaderhax.html
 + 老 3DS
   + 你应该在 2.1.0版本上
   + 在3DS浏览器进 `http://dukesrg.github.io/2xrsa.html?arm11.bin`
-    + 如果出错, [请看故障检测指导](troubleshooting#ts_browser)
-    + 如果花屏, [请看故障检测指导](troubleshooting#ts_safe_a9lh_screen)
+    + 如果出错, [请看故障检测指导](troubleshooting.html#ts_browser)
+    + 如果花屏, [请看故障检测指导](troubleshooting.html#ts_safe_a9lh_screen)
   + 按 (Select) 完全安装
   + 安装器在你的设备上会安装arm9loaderhax(这非常快)
   + 关机, 如果必要请长按电源键直到关机
@@ -108,7 +108,7 @@ permalink: /installing-arm9loaderhax.html
 + New 3DS
   + 选择合适的漏洞入口进入homebrew launcher
   + 加载 SafeA9LHInstaller
-    + 如果花屏, [请看故障检测指导](troubleshooting#ts_safe_a9lh_screen)
+    + 如果花屏, [请看故障检测指导](troubleshooting.html#ts_safe_a9lh_screen)
   + 按 (Select) 完全安装
   + 安装器在你的设备上会安装arm9loaderhax(这非常快)
   + 关机 (如果你需要强制关机, [请报告bug!](https://github.com/AuroraWright/SafeA9LHInstaller/issues))
@@ -117,8 +117,8 @@ permalink: /installing-arm9loaderhax.html
 
 1. 开机时长按select进入Luma3DS菜单
   + 请在按电源键之前长按start
-  + 如果黑屏, [请看故障检测指导](troubleshooting#ts_sys_a9lh)   
-  + 如果启动到SafeA9LHInstaller, [请看故障检测指导](troubleshooting#ts_safe_a9lh)
+  + 如果黑屏, [请看故障检测指导](troubleshooting.html#ts_sys_a9lh)   
+  + 如果启动到SafeA9LHInstaller, [请看故障检测指导](troubleshooting.html#ts_safe_a9lh)
 2. 使用 (A) 按键和十字方向键开启下列选项: 
   + **"Autoboot SysNAND"**
   + **"Use SysNAND FIRM if booting with R (A9LH)"**
@@ -133,16 +133,16 @@ permalink: /installing-arm9loaderhax.html
 ##### 第IV步 - 恢复系统
 
 在看跟随这个指导之前，如果你已经有做过EmuNAND（虚拟系统）为基础的自定义固件,想要将之前EmuNAND（虚拟系统）中的内容移到新的SysNAND系统中
-是时候跟随[这个向导转移EmuNAND](move-emunand)，替代这一章节的第一步
+是时候跟随[这个向导转移EmuNAND](move-emunand.html)，替代这一章节的第一步
 {: .notice--info}
 
-1. **如果你是老3DS或2DS用户，刚刚做了[2.1.0 ctrtransfer](2.1.0-ctrtransfer), 请看这里:**
+1. **如果你是老3DS或2DS用户，刚刚做了[2.1.0 ctrtransfer](2.1.0-ctrtransfer.html), 请看这里:**
   + 复制 `NANDmin.bin`到SD卡`/files9/`目录 
   +  启动是按住(Start)通过arm9loaderhax打开Hourglass9
   + 进入 "SysNAND Backup/Restore"
   + 从 `NANDmin.bin` 恢复
   + 按(Start) 重启
-  + 如果你黑屏, [请看 9.2.0 ctrtransfer](9.2.0-ctrtransfer)
+  + 如果你黑屏, [请看 9.2.0 ctrtransfer](9.2.0-ctrtransfer.html)
 1. 如果你的备份是 3.0.0 到 4.5.0之间的, 请看这里
   + 下载 [这个文件](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) 重命名为 `firmware.bin`
   + 下载 [这个文件](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
@@ -151,7 +151,7 @@ permalink: /installing-arm9loaderhax.html
 2. 进入系统设置, 选第四个 "其他设置",然后到最右边选"系统升级"来升级你的系统
   + 这是安全的.
   + 如果出错，设置 DNS为自动（"auto"）。如果网络出错，请重试几次，或者半夜再更新
-  + 如果还是出错并且你的NAND是9.2.0以下, [请看 9.2.0 ctrtransfer](9.2.0-ctrtransfer)
+  + 如果还是出错并且你的NAND是9.2.0以下, [请看 9.2.0 ctrtransfer](9.2.0-ctrtransfer.html)
 
 
 ##### 第V步 - 注入 FBI
@@ -162,7 +162,7 @@ permalink: /installing-arm9loaderhax.html
 8. 选择符合你区域的 注入用的FBI `.app`
 4. 按(A)确定注入
 9. 按(Start) 重启
-10. 你之前是用Gateway降级过，下一章第一步依然进入的还是原版的Health & Safety应用, [请看故障检测指导](troubleshooting#gw_fbi)
+10. 你之前是用Gateway降级过，下一章第一步依然进入的还是原版的Health & Safety应用, [请看故障检测指导](troubleshooting.html#gw_fbi)
 
 ##### 第VI步 - 完成设置
 
@@ -215,7 +215,7 @@ permalink: /installing-arm9loaderhax.html
 
 ___
 
-如果DSi / DS 功能损坏 (如果DS 卡或DSiWare没法使用), [请看故障检测指导](troubleshooting#twl_broken)
+如果DSi / DS 功能损坏 (如果DS 卡或DSiWare没法使用), [请看故障检测指导](troubleshooting.html#twl_broken)
 {: .notice--warning}
 
 {% capture notice-10 %}
@@ -234,7 +234,7 @@ ___
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-在将来，你可以按照这个[更新 A9LH](updating-a9lh)指导页面来更新arm9loaderhax
+在将来，你可以按照这个[更新 A9LH](updating-a9lh.html)指导页面来更新arm9loaderhax
 {: .notice--info}
 
 想使用 [NTR CFW](https://github.com/44670/BootNTR/), 在 [这个页面](https://github.com/44670/BootNTR/releases)下载合适的ZIP包， 将`ntr.bin`复制到SD卡根目录, 然后按照从[this](https://github.com/astronautlevel2/BootNTR/releases/latest) 这个页面下载 `BootNTR.cia`安装。
@@ -262,10 +262,10 @@ ___
 
 <div class="notice--info">{{ notice-7 | markdownify }}</div>
 
-如果你要为你的设备切换区域, 请看[切换区域](region-changing) 页面.
+如果你要为你的设备切换区域, 请看[切换区域](region-changing.html) 页面.
 {: .notice--success}
 
-你想需要保证你的A9LH安装是最新版, 请看[更新A9LH](updating-a9lh) 页面.
+你想需要保证你的A9LH安装是最新版, 请看[更新A9LH](updating-a9lh.html) 页面.
 {: .notice--success}
 
 想了解如果使用Luma3DS, 请看 [它的wiki（英文）](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).

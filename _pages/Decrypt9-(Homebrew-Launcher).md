@@ -17,13 +17,13 @@ permalink: /decrypt9-(homebrew-launcher).html
 3. 插入SD卡
 4. 进入homebrew launcher
 4. 打开Decrypt9WIP **(有时候需要多试几次)**
-    + 如果试了多次依然无法进入Decrypt9WIP, 你很有可能是只降级了不完全，需要参考 [9.2.0 Downgrade](9.2.0-downgrade)页面
+    + 如果试了多次依然无法进入Decrypt9WIP, 你很有可能是只降级了不完全，需要参考 [9.2.0 Downgrade](9.2.0-downgrade.html)页面
 4. 进入"SysNAND Options", 然后"SysNAND Backup/Restore"
 5. 执行"NAND Backup (min size)"，然后用方向键选择一个诸如`NANDmin.bin`的名字按(A)保存
 6. 返回主界面
 
-如果你是老3DS, 请前往[2.1.0 ctrtransfer](2.1.0-ctrtransfer) 
+如果你是老3DS, 请前往[2.1.0 ctrtransfer](2.1.0-ctrtransfer.html) 
 {: .notice--primary}
 
-如果你是New 3DS, 按(Start)重启后继续 [安装arm9loaderhax](installing-arm9loaderhax)
+如果你是New 3DS, 按(Start)重启后继续 [安装arm9loaderhax](installing-arm9loaderhax.html)
 {: .notice--primary}

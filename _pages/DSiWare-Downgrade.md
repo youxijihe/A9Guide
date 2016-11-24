@@ -177,7 +177,7 @@ System Transfers can only be performed once a week.
 
 1. Copy and merge the `3ds` folder from the ctr-httpwn zip to **the target 3DS**'s SD card
 2. Reinsert your SD card into **the target 3DS**
-2. Launch the homebrew launcher on the device using [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser))
+2. Launch the homebrew launcher on the device using [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser).html)
   + **Ensure menuhax is not installed, or you won't be able to return to Home Menu from the homebrew launcher**
 3. Launch ctr-httpwn on **the target 3DS**
 4. Press (A) to continue
@@ -223,7 +223,7 @@ System Transfers can only be performed once a week.
   + Fieldrunners: Touch the 'Scores' button at the main menu
   + Legends of Exidia: After pressing (A) or (Start) at the two title screens, select the first save slot and press continue
   + Guitar Rock Tour: Scroll down and go to High-Scores -> Drums -> Easy
-  + If your game does not have the hacked save file installed, [follow this troubleshooting guide](troubleshooting#ts_dsiware)
+  + If your game does not have the hacked save file installed, [follow this troubleshooting guide](troubleshooting.html#ts_dsiware)
 5. Select "Dump f0f1" to backup **the target 3DS**'s NFIRM
 6. Make note of the NFIRM backup's location
 7. Exit dgTool

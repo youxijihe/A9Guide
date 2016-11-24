@@ -8,4 +8,4 @@ permalink: /get-started-(new-3ds).html
 
 | EUR | JPN | USA |
 |:-:|:-:|:-:|
-| [![EUR](images/eu.png)](get-started-(new-3ds-eur)) | [![JPN](images/jp.png)](get-started-(new-3ds-jpn)) | [![USA](images/us.png)](get-started-(new-3ds-usa)) |
+| [![EUR](images/eu.png)](get-started-(new-3ds-eur).html) | [![JPN](images/jp.png)](get-started-(new-3ds-jpn).html) | [![USA](images/us.png)](get-started-(new-3ds-usa).html) |

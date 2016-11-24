@@ -24,8 +24,8 @@ permalink: /decrypt9-(browser).html
     + `http://www.reboot.ms/3ds/load.html?Launcher.dat`
     + `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
     + 如果第一个没有请试下每一个(有些版本不能用第一个，有些版本不能用后三个)
-    + 如果出错, [查看故障检测指南](troubleshooting#ts_browser)
+    + 如果出错, [查看故障检测指南](troubleshooting.html#ts_browser)
 5. 如果破解成功,你将载入Decrypt9
 
-继续到 [2.1.0 ctrtransfer](2.1.0-ctrtransfer).
+继续到 [2.1.0 ctrtransfer](2.1.0-ctrtransfer.html).
 {: .notice--primary}

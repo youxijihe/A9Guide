@@ -46,8 +46,8 @@ amzn_assoc_asins = "B01AC3ZDCE,B00DD0B1R0,B00YC7DZP4,B00IVJ1M7M,B008YYSBR8,B004S
 </script>
 <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
 
-如果你大于9.2.0, 继续到 [9.2.0 降级](9.2.0-downgrade)
+如果你大于9.2.0, 继续到 [9.2.0 降级](9.2.0-downgrade.html)
 {: .notice--primary}
 
-如果你是 9.2.0或以下, 继续到 [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
+如果你是 9.2.0或以下, 继续到 [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher).html)
 {: .notice--primary}

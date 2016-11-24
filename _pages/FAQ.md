@@ -4,7 +4,7 @@ permalink: /faq.html
 ---
 
 <a name="faq_latestfw" />**Q:** *老子/老娘是最新版，还能破吗?*    
-**A:** 能, 但是只能通过[降级NFIRM](nfirm-downgrade) (看[这里（英文）](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
+**A:** 能, 但是只能通过[降级NFIRM](nfirm-downgrade.html) (看[这里（英文）](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
 
 <a name="faq_updatecfw" />**Q:** *怎么升级Luma3DS?*    
 **A:** 用Luma3DS Updater
@@ -52,4 +52,4 @@ permalink: /faq.html
 **A:** 你只要能往SD卡里放文件就可以!
 
 <a name="faq_problem" />**Q:** *救命! 没法启动啊，怎么办...*    
-**A:** 请看 [疑难杂症](troubleshooting).
+**A:** 请看 [疑难杂症](troubleshooting.html).

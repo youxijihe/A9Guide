@@ -9,7 +9,7 @@ permalink: /f3x-(mac).html
 根据容量的大小和电脑的速度,这个过程可能会持续几个小时!
 {: .notice--info}
 
-此页只适用Mac用户。如果你不是Mac, 请查看 [H2testw (windows)](h2testw-(windows)) 或[F3 (Linux)](f3-(linux)) 页面.
+此页只适用Mac用户。如果你不是Mac, 请查看 [H2testw (windows)](h2testw-(windows).html) 或[F3 (Linux)](f3-(linux).html) 页面.
 {: .notice--info}
 
 #### 你需要什么
@@ -31,5 +31,5 @@ permalink: /f3x-(mac).html
 如果显示其它信息,你的SD卡或许有坏道或者损坏了，你得换一张了
 {: .notice--danger}
 
-返回到[开始](Get-Started)
+返回到[开始](Get-Started.html)
 {: .notice--primary}

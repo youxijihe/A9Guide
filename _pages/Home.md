@@ -6,12 +6,12 @@ header:
   overlay_image: home-page-feature.jpg
   overlay_filter: 0.5
   cta_label: "开始"
-  cta_url: "/get-started"
+  cta_url: "/get-started.html"
   caption:
 excerpt: '一个详细阐述破解3ds做自定义固件的向导, <br /> 从陈旧的破解方式转向arm9loaderhax。<br />'
 ---
 
-**要使用这个向导中的[torrent](https://en.wikipedia.org/wiki/Torrent_file)文件，你需要[迅雷](http://www.xunlei.com)或者[百度网盘](http://pan.baidu.com)离线下载功能，当然向导也提供网盘下载**
+**要使用这个向导中的[torrent](https://en.wikipedia.org/wiki/Torrent_file)文件，你需要[迅雷](https://www.xunlei.com)或者[百度网盘](https://pan.baidu.com)离线下载功能，当然向导也提供网盘下载**
 {: .notice--info}
 
 **在继续之间请认真阅读以下的介绍知识**
@@ -54,7 +54,7 @@ Arm9loaderhax是最新最好载入自制系统的方式，能几秒启动并让�
 ## 在开始之前你需要知道什么?
 
 + **在开始之前，你必须知道破解的风险： 每次你更改系统,都有无法恢复的变砖的可能性。 虽然很少见，但依旧可能会，所以请严格按照步骤来走**
-+ 如果你之前已经有做过EmuNAND（虚拟系统）为基础的自定义固件,想要将之前EmuNAND（虚拟系统）中的内容移到新的SysNAND系统中,请确保当你到达[安装 arm9loaderhax](installing-arm9loaderhax)这一步的时候，已跟随所有的指导并恢复了你的现存的EmuNAND（虚拟系统）。
++ 如果你之前已经有做过EmuNAND（虚拟系统）为基础的自定义固件,想要将之前EmuNAND（虚拟系统）中的内容移到新的SysNAND系统中,请确保当你到达[安装 arm9loaderhax](installing-arm9loaderhax.html)这一步的时候，已跟随所有的指导并恢复了你的现存的EmuNAND（虚拟系统）。
 + 此向导使用于11.2.0及以下的New 3DS, 老 3DS, 和2DS  *(除了CHN国行 / TWN台版的New 3DS和老 3DS,还有KOR韩国的New 3DS)*.
 + 如果一切按计划走,你不会丢失任何数据(游戏, NNID, 存档等会保留).
 + 感谢任天堂的垃圾配置，向导的有一大部分是在做NAND导出和降级，所以整个过程可能需要花费*几个*小时。

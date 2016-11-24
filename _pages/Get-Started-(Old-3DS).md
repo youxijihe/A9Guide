@@ -8,4 +8,4 @@ permalink: /get-started-(old-3ds).html
 
 | EUR | JPN | KOR | USA |
 |:-:|:-:|:-:|:-:|
-| [![EUR](images/eu.png)](get-started-(old-3ds-eur)) | [![JPN](images/jp.png)](get-started-(old-3ds-jpn)) | [![KOR](images/kr.png)](get-started-(old-3ds-kor)) | [![USA](images/us.png)](get-started-(old-3ds-usa)) |
+| [![EUR](images/eu.png)](get-started-(old-3ds-eur).html) | [![JPN](images/jp.png)](get-started-(old-3ds-jpn).html) | [![KOR](images/kr.png)](get-started-(old-3ds-kor).html) | [![USA](images/us.png)](get-started-(old-3ds-usa).html) |

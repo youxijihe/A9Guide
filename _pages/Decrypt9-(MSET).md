@@ -28,5 +28,5 @@ permalink: /decrypt9-(mset).html
 8. 重启系统,进入系统设置，然后"其他选项"（Other Settings），再"用户资料"（Profile）, 然后 "DS软件设定"（Nintendo DS Profile），就是你们瞎叫的414
 9. 如果破解成功,你将载入Decrypt9
 
-继续到 [2.1.0 ctrtransfer](2.1.0-ctrtransfer).
+继续到 [2.1.0 ctrtransfer](2.1.0-ctrtransfer.html).
 {: .notice--primary}

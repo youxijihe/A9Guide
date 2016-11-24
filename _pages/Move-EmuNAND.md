@@ -26,7 +26,7 @@ permalink: /move-emunand.html
 5. 按 (B) 返回主菜单
 6. 进"SysNAND Backup/Restore", 选"SysNAND Restore (keep a9lh)"选项从`NAND_emu.bin`恢复到你的SysNAND中
 7. 按(Select)弹出SD卡
-8. SD卡插上电脑, 然后从SD卡的`/files9/`目录中拷贝`NAND_emu.bin.bin`和`NAND_emu.bin.sha` 到安全的地方; 最好多几个地方备份; 如果你在将来出错这个备份可以拯救你 **(你的备份文件的大小需符合 [这个页面](nand-size) 的要求; 如果不是，你需要删除重新备份一次!)**
+8. SD卡插上电脑, 然后从SD卡的`/files9/`目录中拷贝`NAND_emu.bin.bin`和`NAND_emu.bin.sha` 到安全的地方; 最好多几个地方备份; 如果你在将来出错这个备份可以拯救你 **(你的备份文件的大小需符合 [这个页面](nand-size.html) 的要求; 如果不是，你需要删除重新备份一次!)**
 9. 复制好后删除SD卡`/files9/`下的`NAND_emu.bin`和`NAND_emu.bin.sha`文件。
 10. **将SD上的所有文件都备份到你的电脑中,接下来的步骤会删除SD卡上的所有文件**
 11. 3DS重新插上SD卡
@@ -42,6 +42,6 @@ permalink: /move-emunand.html
 18. 3DS重新插上SD卡
 19. 按 (A)重新挂载SD卡
 20. 按(Start)重启!
-19. 如果黑屏, [请看故障检测指导](troubleshooting#ts_sys_down)
+19. 如果黑屏, [请看故障检测指导](troubleshooting.html#ts_sys_down)
 
-返回到[安装 arm9loaderhax](installing-arm9loaderhax).
+返回到[安装 arm9loaderhax](installing-arm9loaderhax.html).

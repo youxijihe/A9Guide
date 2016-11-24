@@ -62,7 +62,7 @@ Homebrew Launcher有很多入口和加载的方式。最常用的是browserhax�
 8. 将浏览器导向 `http://plail.ueuo.com/3dsbrowserhax_auto.php`
     + 你也可以通过扫描QR二维码进入 (在主菜的按 (L + R) ,然后点击下屏的QR二维码图标)     
 ![browserhax_auto](http://plail.ueuo.com/3dsbrowserhax_auto_qrcode.png)
-    + 如果出错, [请看故障检测指导](troubleshooting#ts_browser)
+    + 如果出错, [请看故障检测指导](troubleshooting.html#ts_browser)
 9. 你的主机会进入homebrew菜单
 
 ##### V -  menuhax
@@ -80,8 +80,8 @@ Homebrew Launcher有很多入口和加载的方式。最常用的是browserhax�
 你现在可以通过在启动系统的时候按住十字方向的（下）进入Homebrew Launcher
 {: .notice--info}
 
-如果你大于9.2.0, 继续到 [9.2.0 降级](9.2.0-downgrade)
+如果你大于9.2.0, 继续到 [9.2.0 降级](9.2.0-downgrade.html)
 {: .notice--primary}
 
-如果你是 9.2.0或以下, 继续到 [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
+如果你是 9.2.0或以下, 继续到 [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher).html)
 {: .notice--primary}

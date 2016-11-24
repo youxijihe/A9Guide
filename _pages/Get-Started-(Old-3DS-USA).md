@@ -16,7 +16,7 @@ permalink: /get-started-(old-3ds-usa).html
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-对于所有版本来说，你都可以用[卡带升级](cart-update) 到高版本，然后再按照下表的相应版本指引继续。
+对于所有版本来说，你都可以用[卡带升级](cart-update.html) 到高版本，然后再按照下表的相应版本指引继续。
 {: .notice--warning}
 
 如果你升级用的卡带自带9.9.0或更高版本 *(意味着你可以升至9.9.0或更高, 但是你的浏览器版本是-25或更低, 比如10.2.0-24)*, 你的浏览器会被删除，你需要看"无浏览器"列.
@@ -28,14 +28,14 @@ permalink: /get-started-(old-3ds-usa).html
 
 | 从 | 到 | 无浏览器 | 有浏览器 |
 |:-:|:-:|:-:|:-:|
-| 1.0.0 | 1.1.0 | [Cart Update](cart-update) | [Cart Update](cart-update) |
-| 2.1.0 | 2.1.0 | [Cart Update](cart-update) | [Installing arm9loaderhax](installing-arm9loaderhax)|
-| 2.2.0 | 3.0.0 | [Cart Update](cart-update)  | [Cart Update](cart-update) |
-| 4.0.0 | 4.5.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9 (Browser)](decrypt9-(browser)) |
-| 5.0.0 | 5.1.0 | [Cart Update](cart-update) | [Decrypt9 (Browser)](decrypt9-(browser)) |
-| 6.0.0 | 6.3.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9 (Browser)](decrypt9-(browser)) |
-| 7.0.0 | 8.1.0 | [Cart Update](cart-update) | [Decrypt9 (Browser)](decrypt9-(browser)) |
-| 9.0.0 | 9.2.0 | [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser)) | [Decrypt9 (Browser)](decrypt9-(browser)) |
-| 9.3.0 | 10.6.0 | [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser)) | [Homebrew Launcher (Browser)](homebrew-launcher-(browser)) |
-| 10.7.0 | 10.7.0 | [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser))| [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser))|
-| 11.0.0 | 11.2.0 | [NFIRM Downgrade](nfirm-downgrade) | [NFIRM Downgrade](nfirm-downgrade) |
+| 1.0.0 | 1.1.0 | [Cart Update](cart-update.html) | [Cart Update](cart-update.html) |
+| 2.1.0 | 2.1.0 | [Cart Update](cart-update.html) | [Installing arm9loaderhax](installing-arm9loaderhax.html)|
+| 2.2.0 | 3.0.0 | [Cart Update](cart-update.html)  | [Cart Update](cart-update.html) |
+| 4.0.0 | 4.5.0 | [Decrypt9 (MSET)](decrypt9-(mset).html) | [Decrypt9 (Browser)](decrypt9-(browser).html) |
+| 5.0.0 | 5.1.0 | [Cart Update](cart-update.html) | [Decrypt9 (Browser)](decrypt9-(browser).html) |
+| 6.0.0 | 6.3.0 | [Decrypt9 (MSET)](decrypt9-(mset).html) | [Decrypt9 (Browser)](decrypt9-(browser).html) |
+| 7.0.0 | 8.1.0 | [Cart Update](cart-update.html) | [Decrypt9 (Browser)](decrypt9-(browser).html) |
+| 9.0.0 | 9.2.0 | [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser).html) | [Decrypt9 (Browser)](decrypt9-(browser).html) |
+| 9.3.0 | 10.6.0 | [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser).html) | [Homebrew Launcher (Browser)](homebrew-launcher-(browser).html) |
+| 10.7.0 | 10.7.0 | [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser).html)| [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser).html)|
+| 11.0.0 | 11.2.0 | [NFIRM Downgrade](nfirm-downgrade.html) | [NFIRM Downgrade](nfirm-downgrade.html) |

@@ -16,7 +16,7 @@ permalink: /get-started-(new-3ds-jpn).html
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-对于所有版本来说，你都可以用[卡带升级](cart-update) 到高版本，然后再按照下表的相应版本指引继续。
+对于所有版本来说，你都可以用[卡带升级](cart-update.html) 到高版本，然后再按照下表的相应版本指引继续。
 {: .notice--warning}
 
 如果你升级用的卡带自带9.9.0或更高版本 *(意味着你可以升至9.9.0或更高, 但是你的浏览器版本是-25或更低, 比如10.2.0-24)*, 你的浏览器会被删除，你需要看"无浏览器"列.
@@ -27,6 +27,6 @@ permalink: /get-started-(new-3ds-jpn).html
 
 | 从 | 到 | 无浏览器 | 有浏览器 |
 |:-:|:-:|:-:|:-:|
-| 8.1.0 | 8.1.0 | [NTR and Cubic Ninja](ntr-and-cubic-ninja) | [Homebrew Launcher (有浏览器)](homebrew-launcher-(browser)) |
-| 9.0.0 | 10.7.0 | [Homebrew Launcher (无浏览器)](homebrew-launcher-(no-browser)) | [Homebrew Launcher (有浏览器)](homebrew-launcher-(browser)) |
-| 11.0.0 | 11.2.0 | [NFIRM Downgrade](nfirm-downgrade) | [NFIRM Downgrade](nfirm-downgrade) |
+| 8.1.0 | 8.1.0 | [NTR and Cubic Ninja](ntr-and-cubic-ninja.html) | [Homebrew Launcher (有浏览器)](homebrew-launcher-(browser).html) |
+| 9.0.0 | 10.7.0 | [Homebrew Launcher (无浏览器)](homebrew-launcher-(no-browser).html) | [Homebrew Launcher (有浏览器)](homebrew-launcher-(browser).html) |
+| 11.0.0 | 11.2.0 | [NFIRM Downgrade](nfirm-downgrade.html) | [NFIRM Downgrade](nfirm-downgrade.html) |

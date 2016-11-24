@@ -17,5 +17,5 @@ permalink: /nfirm-downgrade.html
 
 ---
 
-+ 参考[这里](hardmod-downgrade) 利用[硬改](https://gbatemp.net/threads/414498/)  降级NFIRM   
-+ 参考[这里](dsiware-downgrade) 利用DSiWare和另一台3DS (已有自定义固件)降级NFIRM 
++ 参考[这里](hardmod-downgrade.html) 利用[硬改](https://gbatemp.net/threads/414498/)  降级NFIRM   
++ 参考[这里](dsiware-downgrade.html) 利用DSiWare和另一台3DS (已有自定义固件)降级NFIRM 

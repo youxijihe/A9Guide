@@ -91,8 +91,8 @@ permalink: /troubleshooting.html
 13. 选择"Move path(s)"
 14. 大写的文件就移到`newdir`目录里了
 15. 按(Start)重启
-16. 返回[安装 arm9loaderhax](installing-arm9loaderhax) and retry the FBI injection
-17. 如果还是不行,就移到大写的文件移回到 `content` 目录,将小写的移到`newdir`中, 再返回 [安装 arm9loaderhax](installing-arm9loaderhax) and 再重试 FBI注入
+16. 返回[安装 arm9loaderhax](installing-arm9loaderhax.html) and retry the FBI injection
+17. 如果还是不行,就移到大写的文件移回到 `content` 目录,将小写的移到`newdir`中, 再返回 [安装 arm9loaderhax](installing-arm9loaderhax.html) and 再重试 FBI注入
 
 ## <a name="ts_browser" />浏览器相关的漏洞不起作用
 浏览器相关的漏洞 (比如 browserhax 或 2xrsa)经常不稳定，频繁崩溃, 有时候可以通过下面几步来解决b
@@ -142,7 +142,7 @@ This is because you selected the wrong version in the steelhax installer.
 ## <a name="ts_d9_backup" />Decrypt9 或Hourglass9 无法还原/ 找不到我的NAND备份
 
 1. 确保在SD卡**根目录**没有叫"Decrypt9"的目录
-3. 试着使用工具检测你的SD卡 [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))
+3. 试着使用工具检测你的SD卡 [H2testw (Windows)](h2testw-(windows).html), [F3 (Linux)](f3-(linux).html), or [F3X (Mac)](f3x-(mac).html)
 4. 试着备份卡上的所有数据,然后格式化再复制回去
 5. 试着换一张SD卡
 
