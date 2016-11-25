@@ -31,5 +31,5 @@ permalink: /f3x-(mac).html
 如果显示其它信息,你的SD卡或许有坏道或者损坏了，你得换一张了
 {: .notice--danger}
 
-返回到[开始](Get-Started.html)
+返回到[开始](get-started.html)
 {: .notice--primary}

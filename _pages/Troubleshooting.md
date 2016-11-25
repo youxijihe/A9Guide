@@ -118,15 +118,15 @@ permalink: /troubleshooting.html
 
 ## <a name="ts_steelhax" />After System Transfering steelhax, it crashes to a black screen on _3DS #2_
 
-This is because you selected the wrong version in the steelhax installer.
+这是因为你选错了了steelhax安装器版本.
 
-1. Download the [otherapp payload](https://smealum.github.io/3ds/#otherapp) corresponding to **3DS #2's** version
+1. 下载 [otherapp payload](https://smealum.github.io/3ds/#otherapp) corresponding to **3DS #2's** version
     + Ignore the NFIRM being downgraded
     + Use the version displayed in settings
 2. Rename the otherapp payload to `steelhax_payload.bin`
-3. Copy it `steelhax_payload.bin` to the root of **3DS #2's** SD Card
+3. 复制 `steelhax_payload.bin` to the root of **3DS #2's** SD Card
     + Overwrite any existing files
-4. Hold (B) while launching **Steel Diver: Sub Wars**
+4. 当载入 **Steel Diver: Sub Wars**的时候按住 (B) 
 
 ## <a name="ts_dsiware" />After doing the DSiWare Downgrade, my hacked save is gone
 
@@ -197,13 +197,13 @@ This is because you selected the wrong version in the steelhax installer.
     4. Press (A). Your 3DS should power off; this means arm9loaderhax is working and something else is broken; your device is **not** bricked.
 8. 如果你之前是通过Gateway降级的, 确保使用最新版的Luma3DS(至少v6.2.3 或更高)
 9. 如果你的NAND是 3.0.0 到 4.5.0之间的, 请看这里:
-    + Download [Luma 3DS v6.3.1](https://github.com/AuroraWright/Luma3DS/releases/tag/v6.3.1)
-    + Copy `arm9loaderhax.bin` from the Luma3DS v6.3.1 zip to the root of your SD card, overwrite existing files
-    + Download [this file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) and rename it to `firmware.bin`
-    + Download [this file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
-    + Copy `firmware.bin` and `cetk` to the `/luma/` folder on your SD card
-    + Delete both of these files after updating your 3DS
-    + Replace the old v6.3.1 Luma3DS `arm9loaderhax.bin` with the latest version after updating your 3DS
+    + 下载 [Luma 3DS v6.3.1](https://github.com/AuroraWright/Luma3DS/releases/tag/v6.3.1)
+    + 复制Luma3DS v6.3.1 zip包中的 `arm9loaderhax.bin`到SD卡根目录，覆盖旧文件
+    + 下载 [这个文件](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) 重命名为 `firmware.bin`
+    + 下载 [这个文件](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
+    + 复制 `firmware.bin` 和 `cetk` 到SD卡`/luma/`目录
+    + 更新你的3DS后，删除上面的这两个文件
+    + 更新3DS后，将老的v6.3.1版本Luma3DS的`arm9loaderhax.bin`替换成最新版本的
 9. 试着参考[9.2.0 ctrtransfer](9.2.0-ctrtransfer)
 10. 上 [游戏集合](https://youxijihe.com)求助.
 

@@ -61,4 +61,4 @@ Arm9loaderhax是最新最好载入自制系统的方式，能几秒启动并让�
 + **保持设备充电，避免在整个过程中因为突然没电而造成丢失数据或损坏!**
 + SD卡分区表必须是 [MBR, 不是 GPT](http://www.howtogeek.com/245610/) (SD卡一般默认是MBR).
 + 如果你需要格式化新SD卡, 你可以使用[`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) ，设置分块（Allocation Unit）大小为32k
-+ 2DS软件上基本上等于老3DS，所以步骤中说道"Old 3DS"的也适用于2DS.
++ 2DS软件上基本上等于老3DS，所以步骤中提到"老 3DS"的也适用于2DS.
