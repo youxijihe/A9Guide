@@ -3,7 +3,7 @@ title: "DSiWare 降级"
 permalink: /dsiware-downgrade.html
 ---
 
-**如果你是11.0.0或11.1.0,不要更新到11.2.0。新的更新将会推出，使DSiWare 降级NFIRM，_无需_使用另一台3DS或11.2.0以下的硬改.**
+**如果你是11.0.0或11.1.0,不要更新到11.2.0。新的更新将会推出，使DSiWare 降级NFIRM，_无需_ 使用另一台3DS或11.2.0以下的硬改.**
 {: .notice--primary}
 
 如果你是11.0.0到11.2.0的版本, 必需跟随向导，利用DSiWare和另一台3DS来dump和保存你的NAND以达到降级NFIRM的目的.

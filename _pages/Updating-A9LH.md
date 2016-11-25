@@ -14,7 +14,7 @@ permalink: /updating-a9lh.html
 如果你的Luma设置了PIN，你需要暂时关掉来完成下面的步骤。你可以完成后打开.
 {: .notice--info}
 
-If you are using a payload that does not init the screen on its own (such as Bootanim9), you will need to rename it to `arm9loaderhax_si.bin` instead of `arm9loaderhax.bin`
+如果你使用不能自己初始化屏幕的负载（payload）(比如Bootanim9),你需要重命名为`arm9loaderhax_si.bin` 而不是`arm9loaderhax.bin`
 {: .notice--info}
 
 这一步会更新你的许多负载（payloads） 和AES密钥数据库.
