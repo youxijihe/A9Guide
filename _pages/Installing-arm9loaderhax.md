@@ -35,8 +35,11 @@ permalink: /installing-arm9loaderhax.html
 #### 你需要什么
 
 * [`aeskeydb.bin`](torrents/aeskeydb.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:18b3a17f78e2376e05feaa150749d9fd689b25dc"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
-* [`data_input_v3.zip`](torrents/data_input_v3.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
+* 适合你设备的data文件：
+   + New 3DS[`data_input_v4.zip`](torrents/data_input_v4.torrent)
+   + 老3DS和2DS[`data_input_v3.zip`](torrents/data_input_v3.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * [`fbi-2.4.2-injectable.zip`](torrents/fbi-2.4.2-injectable.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:f978b4cf5eda72823240b9c649f3fd2940a9f525"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
+* 以上文件可以到网盘下载[度娘盘](https://pan.baidu.com/s/1i52q4Ax) 密码:uum9
 * 兼容你设备的最新版的 SafeA9LHInstaller:
   + 兼容New 3DS[Release](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest)
   + 兼容老3DS和2DS[Release](https://github.com/AuroraWright/SafeA9LHInstaller/releases/tag/v2.0.3)
@@ -67,7 +70,7 @@ permalink: /installing-arm9loaderhax.html
 2. 在sd卡根目录创建`cias` 目录（如果不存在）
 4. **删除sd卡根的`a9lh`目录（如果存在）**
   + **如果你安装arm9loaderhax意外地使用了其他设备的`OTP.bin`, 3DS将变成砖头!**
-3. 删除sd卡根的`3ds`目录（如果不存在）
+3. 删除sd卡根目录的`3ds`目录（如果存在）
 4. **将`starter.zip`解压后的内容复制到SD卡根目录**
   + 你会重新有一个新的`3ds`目录替代你刚删除的
 5. 将SafeA9LHInstaller zip文件解压后的内容复制到SD卡根目录
@@ -178,7 +181,7 @@ permalink: /installing-arm9loaderhax.html
 11. 选 "\<current directory>"
 12. 选 "Paste"粘贴,  按(A)确定
 8. 按HOME退出FBI
-9. 从主菜单载入Homebrew Launcher
+9. 从主菜单载入Homebrew Launcher（如果进不去，请更新[boot.3dsx](https://smealum.github.io/ninjhax2/boot.3dsx)文件）
 10. 选 "DSP Dump"
 11. 按 (Start) 然后确定退出
 12. 启动是按住(Start)通过arm9loaderhax打开Hourglass9
@@ -186,7 +189,7 @@ permalink: /installing-arm9loaderhax.html
 14. 选择 `hs.app` (之前你导出来的不含FBI的), 按(A)确定注入
 15. 在主菜单按 (Select)弹出SD卡
 15. 在SD移除的情况下按 (Start)重启 
-  + 至少在SD移除的情况下启动设备，可以让你配置安装了luma的CTRNAND
+  + 至少在SD移除的情况下启动一次设备，可以让你配置安装了luma的CTRNAND
 16. 使用 (A) 按键和十字方向键开启下列选项:    
   + **"Show NAND or user string in System Settings"**
 3. 如果你使用 **New 3DS**, *还可以* 开启下面的选项:
