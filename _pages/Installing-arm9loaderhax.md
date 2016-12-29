@@ -15,6 +15,9 @@ permalink: /installing-arm9loaderhax.html
 **你不能使用其它设备的OTP否则你肯定变砖。**
 {: .notice--danger}
 
+**未ctrtransfer的New 3DS直接操作此页有变砖的可能。**
+{: .notice--danger}
+
 #### 步骤总览
 
 在这个页面，通过各个步骤，最后都是为了: 装上arm9loaderhax.
@@ -36,13 +39,13 @@ permalink: /installing-arm9loaderhax.html
 
 * [`aeskeydb.bin`](torrents/aeskeydb.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:18b3a17f78e2376e05feaa150749d9fd689b25dc"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * 适合你设备的data文件：
-   + New 3DS[`data_input_v4.zip`](torrents/data_input_v4.torrent)
-   + 老3DS和2DS[`data_input_v3.zip`](torrents/data_input_v3.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
+   + 未ctrtransfer的New 3DS[`data_input_v4.zip`](torrents/data_input_v4.torrent)(有风险)
+   + 做过ctrtransfer的New 3DS，老3DS和2DS[`data_input_v3.zip`](torrents/data_input_v3.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * [`fbi-2.4.2-injectable.zip`](torrents/fbi-2.4.2-injectable.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:f978b4cf5eda72823240b9c649f3fd2940a9f525"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * 以上文件可以到网盘下载[度娘盘](https://pan.baidu.com/s/1i52q4Ax) 密码:uum9
 * 兼容你设备的最新版的 SafeA9LHInstaller:
-  + 兼容New 3DS[Release](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest)
-  + 兼容老3DS和2DS[Release](https://github.com/AuroraWright/SafeA9LHInstaller/releases/tag/v2.0.3)
+  + 未ctrtransfer的New 3DS[Release](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest)
+  + 做过ctrtransfer的New 3DS，老3DS和2DS[Release](https://github.com/AuroraWright/SafeA9LHInstaller/releases/tag/v2.0.3)
 * 最新版的 [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest)
 * 最新版的 [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
 * 最新版的 [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)

@@ -28,6 +28,7 @@ permalink: /get-started-(old-3ds-usa).html
 
 | 从 | 到 | 无浏览器 | 有浏览器 |
 |:-:|:-:|:-:|:-:|
+| 9.0.0 | 10.7.0 | [Homebrew Launcer(声音)](homebrew-launcher-(sound).html) |  [Homebrew Launcer(声音)](homebrew-launcher-(sound).html) |
 | 1.0.0 | 1.1.0 | [Cart Update](cart-update.html) | [Cart Update](cart-update.html) |
 | 2.1.0 | 2.1.0 | [Cart Update](cart-update.html) | [Installing arm9loaderhax](installing-arm9loaderhax.html)|
 | 2.2.0 | 3.0.0 | [Cart Update](cart-update.html)  | [Cart Update](cart-update.html) |

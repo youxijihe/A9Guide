@@ -27,5 +27,5 @@ permalink: /get-started-(new-3ds-eur).html
 
 | 从 | 到 | 无浏览器 | 有浏览器 |
 |:-:|:-:|:-:|:-:|
-| 9.0.0 | 10.7.0 | [Homebrew Launcher (无浏览器)](homebrew-launcher-(no-browser).html) | [Homebrew Launcher (有浏览器)](homebrew-launcher-(browser).html) |
+| 9.0.0 | 10.7.0 | [Homebrew Launcher (无浏览器)](homebrew-launcher-(no-browser).html) [Homebrew Launcer(声音)](homebrew-launcher-(sound).html)| [Homebrew Launcher (有浏览器)](homebrew-launcher-(browser).html)  [Homebrew Launcer(声音)](homebrew-launcher-(sound).html)|
 | 11.0.0 | 11.2.0 | [NFIRM Downgrade](nfirm-downgrade.html) | [NFIRM Downgrade](nfirm-downgrade.html) |

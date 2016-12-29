@@ -27,5 +27,6 @@ permalink: /get-started-(new-3ds-usa).html
 
 | 从 | 到 | 无浏览器 | 有浏览器 |
 |:-:|:-:|:-:|:-:|
+| 9.7.0 | 10.7.0 |  [Homebrew Launcer(声音)](homebrew-launcher-(sound).html) |  [Homebrew Launcer(声音)](homebrew-launcher-(sound).html) |
 | 9.0.0 | 10.7.0 | [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser).html) | [Homebrew Launcher (Browser)](homebrew-launcher-(browser).html) |
 | 11.0.0 | 11.2.0 | [NFIRM Downgrade](nfirm-downgrade.html) | [NFIRM Downgrade](nfirm-downgrade.html) |
