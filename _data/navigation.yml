@@ -15,7 +15,7 @@ main:
   - title: "改变区域"
     url: /region-changing.html
 
-  - title: "NAND大小和OPT信息"
+  - title: "NAND大小和OTP信息"
     url: /nand-size.html
 
   - title: "鸣谢"

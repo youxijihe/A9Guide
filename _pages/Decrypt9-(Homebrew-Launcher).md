@@ -3,30 +3,23 @@ title: "Decrypt9 (Homebrew Launcher)"
 permalink: /decrypt9-(homebrew-launcher).html
 ---
 
-这个向导仅仅使用到了SysNAND(真实系统)。如果你之前已经有做过EmuNAND（虚拟系统）为基础的自定义固件，你需要跟随所有在SysNAND中或者适用于SysNAND的操作步骤。注意的是EmuNAND和RedNAND只是[同一个概念](http://3dbrew.org/wiki/NAND_Redirection)略微不同的实现而已.
+因为有一个bug，safehax需要一个能正常工作的卡带（3ds，nds，烧录卡等）插入机器才能成功。作为一个临时解决方案，系统版本在9.2.0及以下的用户可以无需卡带，直接拷贝Decrypt9WIP.3dsx到/3ds/下，无需破解即可运行。
 {: .notice--info}
 
 #### 你需要森么
 
 * 最新版的 [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
+* 最新版的 [safehax+fasthax](/images/safehax-fasthax.zip/)
 
 #### 指导
 
-2. 在SD卡根目录创建`files9`目录（如果不存在）
-3. 解压Decrypt9WIP的zip文件，将其中的`Decrypt9WIP`文件夹放到SD卡的`/3ds/`目录下
-3. 插入SD卡
-4. 进入homebrew launcher
-4. 打开Decrypt9WIP **(有时候需要多试几次)**
-    + 如果试了多次依然无法进入Decrypt9WIP, 你很有可能是只降级了不完全，需要参考 [9.2.0 Downgrade](9.2.0-downgrade.html)页面
-4. 进入"SysNAND Options", 然后"SysNAND Backup/Restore"
-5. 执行"NAND Backup (min size)"，然后用方向键选择一个诸如`NANDmin.bin`的名字按(A)保存
-6. 返回主界面
+1. 在SD卡根目录创建`files9`目录（如果不存在）
+2. 解压safehax+fasthax压缩包，复制其中的文件到你的SD卡根目录，覆盖已有文件
+3. 复制Decrypt9WIP压缩包中的Decrypt9WIP.bin文件到你SD卡根目录下，重命名Decrypt9WIP.bin为arm9.bin
+4. 机器插入SD卡
+5. 进入homebrew launcher
+6. 运行safehax
+7. 如果漏洞利用成功，你将进入Decrypt9
 
 请前往[2.1.0 ctrtransfer](2.1.0-ctrtransfer.html) 
-{: .notice--primary}
-
-####有风险的支线
-**!!!下面的步骤简单但是有变砖头的风险，请谨慎操作**
-
-如果你是New 3DS, 可以跳过ctrtransfer[直接安装arm9loaderhax](installing-arm9loaderhax.html)，但是有风险
 {: .notice--primary}

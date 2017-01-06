@@ -15,8 +15,6 @@ permalink: /installing-arm9loaderhax.html
 **你不能使用其它设备的OTP否则你肯定变砖。**
 {: .notice--danger}
 
-**未ctrtransfer的New 3DS直接操作此页有变砖的可能。**
-{: .notice--danger}
 
 #### 步骤总览
 
@@ -38,14 +36,10 @@ permalink: /installing-arm9loaderhax.html
 #### 你需要什么
 
 * [`aeskeydb.bin`](torrents/aeskeydb.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:18b3a17f78e2376e05feaa150749d9fd689b25dc"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
-* 适合你设备的data文件：
-   + 未ctrtransfer的New 3DS[`data_input_v4.zip`](torrents/data_input_v4.torrent)(有风险)
-   + 做过ctrtransfer的New 3DS，老3DS和2DS[`data_input_v3.zip`](torrents/data_input_v3.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
+* [`data_input_v3.zip`](torrents/data_input_v3.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * [`fbi-2.4.2-injectable.zip`](torrents/fbi-2.4.2-injectable.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:f978b4cf5eda72823240b9c649f3fd2940a9f525"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * 以上文件可以到网盘下载[度娘盘](https://pan.baidu.com/s/1i52q4Ax) 密码:uum9
-* 兼容你设备的最新版的 SafeA9LHInstaller:
-  + 未ctrtransfer的New 3DS[Release](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest)
-  + 做过ctrtransfer的New 3DS，老3DS和2DS[Release](https://github.com/AuroraWright/SafeA9LHInstaller/releases/tag/v2.0.3)
+* 早期版本的[SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases/tag/v2.0.3)
 * 最新版的 [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest)
 * 最新版的 [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
 * 最新版的 [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
@@ -69,22 +63,22 @@ permalink: /installing-arm9loaderhax.html
 
 <div class="notice--danger">{{ notice-5 | markdownify }}</div>
 
-1. **如果SD卡存在`/files9/`目录，请将`/files9/`目录拷贝到安全的地方; 最好多几个地方备份（比如网盘）; 如果你在将来出错这个备份可以拯救你，避免数据丢失**
+1. **如果SD卡存在`/files9/`目录，请将`/files9/`目录拷贝到安全的地方; 最好多几个地方备份（比如网盘）; 如果你在将来出错，这个备份可以拯救你，避免数据丢失**
 2. 在sd卡根目录创建`cias` 目录（如果不存在）
-4. **删除sd卡根的`a9lh`目录（如果存在）**
+4. **删除SD卡根的`a9lh`目录（如果存在）**
   + **如果你安装arm9loaderhax意外地使用了其他设备的`OTP.bin`, 3DS将变成砖头!**
-3. 删除sd卡根目录的`3ds`目录（如果存在）
+3. 删除SD卡根目录的`3ds`目录（如果存在）
 4. **将`starter.zip`解压后的内容复制到SD卡根目录**
   + 你会重新有一个新的`3ds`目录替代你刚删除的
-5. 将SafeA9LHInstaller zip文件解压后的内容复制到SD卡根目录
+5. 将SafeA9LHInstaller.7z文件解压后的内容复制到SD卡根目录
 6. 复制 `data_input_v3.zip`中的 `a9lh`目录到SD卡根目录
 7. 将arm9loaderhax 发布的zip包解压后的内容复制到SD卡的`a9lh`目录
 9. 复制 hblauncher_loader zip 文件中的`hblauncher_loader.cia`到SD卡`/cias/`目录
 10. 复制 Luma3DS Updater zip 文件中的`lumaupdater.cia`到SD卡`/cias/`目录
 11. 复制 FBI zip文件中的 `FBI.cia`到SD卡`/cias/`目录
 12. **复制Luma3DS zip文件中的 `arm9loaderhax.bin`到SD卡根目录,覆盖已存在的文件**
-13. 在sd卡根目录创建`luma` 目录
-14. 在sd卡`luma`目录下创建`payloads` 目录
+13. 在SD卡根目录创建`luma` 目录
+14. 在SD卡`luma`目录下创建`payloads` 目录
 15. 复制Hourglass9 zip文件中的 `Hourglass9.bin`到SD卡上的`/luma/payloads`目录中，然后重命名成`start_Hourglass9.bin`
 16. 复制 `aeskeydb.bin` to 到SD卡`/files9/`目录
 17. 复制 `DspDump.3dsx` to 到SD卡`/3ds/`目录
@@ -101,8 +95,6 @@ permalink: /installing-arm9loaderhax.html
 
 1. 插上SD卡
 2. 按下面步骤安装arm9loaderhax:
-
-+ 老 3DS
   + 你应该在 2.1.0版本上
   + 在3DS浏览器进 `http://dukesrg.github.io/2xrsa.html?arm11.bin`
     + 如果出错, [请看故障检测指导](troubleshooting.html#ts_browser)
@@ -111,13 +103,6 @@ permalink: /installing-arm9loaderhax.html
   + 安装器在你的设备上会安装arm9loaderhax(这非常快)
   + 关机, 如果必要请长按电源键直到关机
   + 将`/a9lh/`目录中你设备特有的 `OTP.bin` 拷贝到安全的地方; 最好多几个地方备份（比如网盘）,然后重新插上SD卡
-+ New 3DS
-  + 选择合适的漏洞入口进入homebrew launcher
-  + 加载 SafeA9LHInstaller
-    + 如果花屏, [请看故障检测指导](troubleshooting.html#ts_safe_a9lh_screen)
-  + 按 (Select) 完全安装
-  + 安装器在你的设备上会安装arm9loaderhax(这非常快)
-  + 关机 (如果你需要强制关机, [请报告bug!](https://github.com/AuroraWright/SafeA9LHInstaller/issues))
 
 ##### 第 III 步 - 设置Luma3DS
 
@@ -142,20 +127,20 @@ permalink: /installing-arm9loaderhax.html
 是时候跟随[这个向导转移EmuNAND](move-emunand.html)，替代这一章节的第一步
 {: .notice--info}
 
-1. **如果你是老3DS或2DS用户，刚刚做了[2.1.0 ctrtransfer](2.1.0-ctrtransfer.html), 请看这里:**
-  + 复制 `NANDmin.bin`到SD卡`/files9/`目录 
-  +  启动是按住(Start)通过arm9loaderhax打开Hourglass9
-  + 进入 "SysNAND Backup/Restore"
-  + 从 `NANDmin.bin` 恢复
-  + 按(Start) 重启
+
+1. 启动是按住(Start)通过arm9loaderhax打开Hourglass9
+2. 进入 "SysNAND Backup/Restore"
+3. 从 `NANDmin.bin` 恢复
+4. 按(Start) 重启
   + 如果你黑屏, [请看 9.2.0 ctrtransfer](9.2.0-ctrtransfer.html)
-1. 如果你的备份是 3.0.0 到 4.5.0之间的, 请看这里
+5. 如果你的备份是 3.0.0 到 4.5.0之间的, 你的设备不会启动除非手动下载下面的必须固件
   + 下载 [这个文件](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) 重命名为 `firmware.bin`
   + 下载 [这个文件](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
   + 复制 `firmware.bin` 和 `cetk` 到SD卡`/luma/`目录
   + 更新你的3DS后，删除上面的这两个文件
-2. 进入系统设置, 选第四个 "其他设置",然后到最右边选"系统升级"来升级你的系统
-  + 这是安全的.
+6. 进入系统设置, 选第四个 "其他设置",然后到最右边选"系统升级"来升级你的系统
+  + 使用A9LH + Luma（或其它CFW）是安全的
+  + 不要升级New 3DS2.1.0版本的警告并不适用于恢复NAND备份之后
   + 如果出错，设置 DNS为自动（"auto"）。如果网络出错，请重试几次，或者半夜再更新
   + 如果还是出错并且你的NAND是9.2.0以下, [请看 9.2.0 ctrtransfer](9.2.0-ctrtransfer.html)
 
@@ -187,7 +172,7 @@ permalink: /installing-arm9loaderhax.html
 9. 从主菜单载入Homebrew Launcher（如果进不去，请更新[boot.3dsx](https://smealum.github.io/ninjhax2/boot.3dsx)文件）
 10. 选 "DSP Dump"
 11. 按 (Start) 然后确定退出
-12. 启动是按住(Start)通过arm9loaderhax打开Hourglass9
+12. 启动时按住(Start)通过arm9loaderhax打开Hourglass9
 13. 进入 "SysNAND Backup/Restore", 然后选 "Health&Safety Inject"
 14. 选择 `hs.app` (之前你导出来的不含FBI的), 按(A)确定注入
 15. 在主菜单按 (Select)弹出SD卡
@@ -200,24 +185,6 @@ permalink: /installing-arm9loaderhax.html
     + 这个增加游戏的帧率，但有些可能造成有些游戏不稳定
     + 如果游戏不行,请关闭这个选项
 14. 插上SD卡, 按Start保存然后重启
-
-##### 第 VII 步 - 重装票据（Tickets） 
-
-此章节只适合你之前做了ctrtransfer，不得不备份票据（Tickets）的设备。
-{: .notice--info}
-
-如果你没有票据(tickets)需要恢复, 请忽略这一章.
-{: .notice--info}
-
-1. 打开 FBI
-2. 选 "SD"
-3. 选 "files9"
-4. 选 "\<current directory>"
-5. 选 "Install and delete all tickets"
-6. 等待. 系统可能会卡住，请给些时间.
-7. 按(A)确定
-8. 按(B)拒绝从 CDN安装票据（Tickets）.
-9. 按HOME退出FBI
 
 ___
 
@@ -267,6 +234,9 @@ ___
 {% endcapture %}
 
 <div class="notice--info">{{ notice-7 | markdownify }}</div>
+
+如果你需要下载游戏, 可以前往[游戏集合游戏区](https://youxijihe.com/game).
+{: .notice--success}
 
 如果你要为你的设备切换区域, 请看[切换区域](region-changing.html) 页面.
 {: .notice--success}
