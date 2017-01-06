@@ -9,7 +9,7 @@ permalink: /decrypt9-(homebrew-launcher).html
 #### 你需要森么
 
 * 最新版的 [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
-* 最新版的 [safehax+fasthax](/images/safehax-fasthax.zip/)
+* 最新版的 [safehax+fasthax](/images/safehax-fasthax.zip)
 
 #### 指导
 

@@ -42,5 +42,5 @@ Homebrew Launcher有很多入口和加载的方式。最新漏洞是soundhax（�
 	+ 请重新打开Sound应用多试几次。
 
 
-如果你是 9.2.0或以下, 继续到 [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher).html)
+继续到 [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher).html)
 {: .notice--primary}

@@ -47,6 +47,7 @@ permalink: /installing-arm9loaderhax.html
 * 最新版的 [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
 * 最新版的 [DspDump](https://github.com/Cruel/DspDump/releases/latest)
 * 最新版的 [FBI](https://github.com/Steveice10/FBI/releases/)
+* 最新版的 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Homebrew Launcher[Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 #### 指导
@@ -80,6 +81,7 @@ permalink: /installing-arm9loaderhax.html
 13. 在SD卡根目录创建`luma` 目录
 14. 在SD卡`luma`目录下创建`payloads` 目录
 15. 复制Hourglass9 zip文件中的 `Hourglass9.bin`到SD卡上的`/luma/payloads`目录中，然后重命名成`start_Hourglass9.bin`
+15. 解压GodMode9压缩包，复制`GodMode9.bin`到你SD卡的`/luma/payloads/`目录下，并重命名`GodMode9.bin`为`up_GodMode9.bin`
 16. 复制 `aeskeydb.bin` to 到SD卡`/files9/`目录
 17. 复制 `DspDump.3dsx` to 到SD卡`/3ds/`目录
 18. 将`fbi-2.4.2-injectable.zip`解压后的内容到SD卡`/files9/`目录
