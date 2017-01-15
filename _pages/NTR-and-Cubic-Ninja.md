@@ -1,4 +1,4 @@
---
+---
 title: "NTR和立体忍者"
 permalink: /ntr-and-cubic-ninja.html
 ---
@@ -61,5 +61,5 @@ permalink: /ntr-and-cubic-ninja.html
 
 ___
 
-下一步请前往[Decrypt9（homebrew launcher）](decrypt9-(homebrew-launcher).html)
+下一步请进行[Decrypt9（Homebrew launcher）](decrypt9-(homebrew-launcher).html)
 {: .notice--primary}

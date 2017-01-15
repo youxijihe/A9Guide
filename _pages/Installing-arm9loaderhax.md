@@ -46,7 +46,7 @@ permalink: /installing-arm9loaderhax.html
 * 最新版的 [Hourglass9](https://github.com/d0k3/Hourglass9/releases/latest)
 * 最新版的 [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
 * 最新版的 [DspDump](https://github.com/Cruel/DspDump/releases/latest)
-* 最新版的 [FBI](https://github.com/Steveice10/FBI/releases/)
+* 最新版的 [FBI](https://github.com/Steveice10/FBI/releases/lastest)
 * 最新版的 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Homebrew Launcher[Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 

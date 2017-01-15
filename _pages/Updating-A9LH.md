@@ -17,17 +17,17 @@ permalink: /updating-a9lh.html
 如果你使用不能自己初始化屏幕的负载（payload）(比如Bootanim9),你需要重命名为`arm9loaderhax_si.bin` 而不是`arm9loaderhax.bin`
 {: .notice--info}
 
-这一步会更新你的许多负载（payloads） 和AES密钥数据库.
+这一步会更新你的许多负载（payloads）和AES密钥数据库.
 {: .notice--success}
 
 #### 你需要什么
 
-* [`aeskeydb.bin`](torrents/aeskeydb.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:18b3a17f78e2376e05feaa150749d9fd689b25dc"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
-* [`data_input_v3.zip`](torrents/data_input_v3.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
+* [`aeskeydb.bin`](magnet:?xt=urn:btih:18b3a17f78e2376e05feaa150749d9fd689b25dc&dn=aeskeydb.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* [`data_input_v4.zip`](magnet:?xt=urn:btih:00f03ff69b5961307303d5e4778a2f65a528bf2d&dn=data%5Finput%5Fv4.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 * 最新版的 [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
-* 最新版的 [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest)
-* 最新版的 [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest)
-* 最新版的 [Hourglass9](https://github.com/d0k3/Hourglass9/releases/latest)
+* 最新改版的[SafeA9LHInstaller](https://github.com/Plailect/SafeA9LHInstaller/releases/latest) *( `.7z` 文件)*
+* 最新版的[arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest) *(`.7z` 文件)*
+* 最新版的[Hourglass9](https://github.com/d0k3/Hourglass9/releases/latest)
 
 #### 指导
 
@@ -40,7 +40,7 @@ permalink: /updating-a9lh.html
 2. 复制 `aeskeydb.bin` to 到SD卡`/files9/`目录
 3. 复制Hourglass9 zip文件中的 `Hourglass9.bin`到SD卡上的`/luma/payloads`目录中，然后重命名成`start_Hourglass9.bin`
 5. 将SafeA9LHInstaller zip文件解压，将其中`arm9loaderhax.bin`复制到SD卡`/luma/payloads`目录，重名成`down_safea9lhinstaller.bin`
-6. 复制 `data_input_v3.zip`中的 `a9lh`目录到SD卡根目录
+6. 复制 `data_input_v4.zip`中的 `a9lh`目录到SD卡根目录
 7. 将arm9loaderhax的zip包解压后的内容复制到SD卡的`a9lh`目录
 8. 复制Luma3DS zip文件中的 `arm9loaderhax.bin`到SD卡根目录,覆盖已存在的文件
 9. 3DS重新插上sd卡

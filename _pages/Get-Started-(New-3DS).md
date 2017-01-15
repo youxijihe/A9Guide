@@ -39,12 +39,12 @@ permalink: /get-started-(new-3ds).html
     <tr>
       <td style="text-align: center">8.1.0</td>
       <td style="text-align: center">8.1.0</td>
-      <td style="text-align: center" colspan="2"><a href="ntr-and-cubic-ninja">NTR和立体忍者（Cubic Ninja）</a></td>
+      <td style="text-align: center" colspan="2"><a href="ntr-and-cubic-ninja.html">NTR和立体忍者（Cubic Ninja）</a></td>
     </tr>
     <tr>
       <td style="text-align: center">9.0.0</td>
       <td style="text-align: center">11.2.0</td>
-      <td style="text-align: center" colspan="2"><a href="homebrew-launcher-(sound)">Homebrew Launcher (声音)</a></td>
+      <td style="text-align: center" colspan="2"><a href="homebrew-launcher-(sound).html">Homebrew Launcher (声音)</a></td>
     </tr>
   </tbody>
 </table>

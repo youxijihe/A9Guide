@@ -15,7 +15,4 @@ permalink: /nfirm-downgrade.html
 
 ---
 
-+ 参考[这里](hardmod-downgrade.html) 利用[硬改](https://gbatemp.net/threads/414498/)  降级NFIRM   
-+ 参考[这里](dsiware-downgrade-(app-injection-and-second-3ds.html)) 利用DSiWare和另一台3DS (已有自定义固件)降级NFIRM
-+ 参考[这里](dsiware-downgrade-(save-injection.html)) 利用DSiWare,四个漏洞游戏之一和一个Homebrew launcher入口来降级NFIRM *(只支持11.0.0 和11.1.0)*
-+ 参考[这里](dsiware-downgrade-(save-injection-and-second-3ds.html)) 利用DSiWare，四个漏洞游戏之一和另一台3DS (已有自定义固件)降级NFIRM
++ 参考[这里](hardmod-downgrade.html) 利用[硬改](https://gbatemp.net/threads/414498/)  降级NFIRM
