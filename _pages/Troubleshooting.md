@@ -105,7 +105,7 @@ permalink: /troubleshooting.html
 你复制了错误的 `arm9loaderhax.bin`文件到SD卡里(你只需复制 SafeA9LHInstaller zip文件中的`3ds`目录和 `SafeA9LHInstaller.dat`文件) 
 
 1. 使用正确的 `arm9loaderhax.bin`
-    1. 从Luma3DS zip文件中复制 `arm9loaderhax.bin`到SD卡根目录
+    1. 从Luma3DS 压缩文件中复制 `arm9loaderhax.bin`到SD卡根目录
     2. 按住select重启
 
 ## <a name="ts_safe_a9lh_screen" />SafeA9LHInstaller显示一个有躁点的屏幕
@@ -116,28 +116,30 @@ permalink: /troubleshooting.html
     2. 设备会重启
         + 如果不重启,等10秒,然后按住电源键强制关机
 
-## <a name="ts_steelhax" />After System Transfering steelhax, it crashes to a black screen on _3DS #2_
+## <a name="ts_steelhax" />系统传输steelhax后，目标3DS黑屏
 
 这是因为你选错了了steelhax安装器版本.
 
-1. 下载 [otherapp payload](https://smealum.github.io/3ds/#otherapp) corresponding to **3DS #2's** version
-    + Ignore the NFIRM being downgraded
-    + Use the version displayed in settings
-2. Rename the otherapp payload to `steelhax_payload.bin`
-3. 复制 `steelhax_payload.bin` to the root of **3DS #2's** SD Card
-    + Overwrite any existing files
+1. 下载对应 **目标3DS（第二台）** 版本的 [otherapp payload](https://smealum.github.io/3ds/#otherapp) 
+    + 忽略“the NFIRM being downgraded”信息
+    + 使用设置中显示的版本
+2. 将“otherapp payload”重命名为`steelhax_payload.bin`
+3. 复制 `steelhax_payload.bin` 复制到**目标3DS**的SD卡根目录
+    + 覆盖任何已有的文件
 4. 当载入 **Steel Diver: Sub Wars**的时候按住 (B) 
 
-## <a name="ts_dsiware" />After doing the DSiWare Downgrade, my hacked save is gone
+## <a name="ts_dsiware" />完成DSiWare降级后，我破解过的DSiWare不能正常工作
 
-3. Reboot **3DS #1** while holding Start to launch Hourglass9
-4. Go to SysNAND Backup/Restore and restore SysNAND from `NANDmin.bin` (the one made before the system transfer)
-1. If you don't have the game at all, link the NNID you bought the game with to **3DS #2** and download it on **3DS #2**
-2. On **3DS #1**, do [DSiWare Downgrade - Section II - Installing the save](dsiware-downgrade#section-ii---installing-the-save)
-3. On **3DS #1**, go to System Settings, "Data Management", "DSiWare", then copy your DSiWare game to your SD card
-4. Either put **3DS #1**'s SD card in **3DS #2**, or rename the `Nintendo 3DS` on **3DS #2**'s SD card and copy the `Nintendo 3DS` folder from **3DS #1**'s SD card to **3DS #2**'s SD card
-5. On **3DS #2**, go to System Settings, "Data Management", "DSiWare", then copy your DSiWare game to the system
-6. Return your SD cards to normal, then continue with the DSiWare Downgrade
+1. 按住(Start)键重启**来源3DS**，运行Hourglass9
+2. 进入“SysNAND Backup/Restore”选项，从`NANDmin.bin`恢复SysNAND（在进行系统转移之前做的备份）
+3. 如果在**目标3DS**上没有看到任何游戏，将**目标3DS**与你买游戏用的NNID绑定，尝试重新下载该游戏
+  + 你可能需要先从"System Settings（系统设置）" - "Data Management（数据管理）"中先将该游戏删除
+  + 如果**目标3DS**不是最新版本的操作系统，你可能需要运行ctr-httpwn才能访问eShop
+4. 在**来源3DS**上，执行存档和".app"（如果你正在使用`.app`页面）注入步骤
+5. 在**来源3DS**上，依次进入"System Settings（系统设置）" - "Data Management（数据管理）" - "DSiWare"，将你的DSiWare游戏复制到SD卡上
+6. 将**来源3DS**的SD卡插入**目标3DS**；或者将**目标3DS**SD上的`Nintendo 3DS`文件夹重命名，然后将**来源3DS**SD卡上的`Nintendo 3DS`文件夹复制到**目标3DS**的SD卡上
+7. 在**目标3DS**上，依次进入"System Settings（系统设置）" - "Data Management（数据管理）" - "DSiWare"，将DSiWare游戏复制回系统
+8. 将SD卡复原，继续进行DSiWare降级
 
 ## <a name="ts_d9_backup" />Decrypt9 或Hourglass9 无法还原/ 找不到我的NAND备份
 
@@ -148,12 +150,12 @@ permalink: /troubleshooting.html
 
 ## <a name="ts_sys_down" />启动SysNAND黑屏
 
-1. Try booting with your SD card out, and then reinserting it after booting.
-    1. Power off your 3DS by holding down the power button.
-    2. Take out the SD card.
-    3. Power on the 3DS.
-    4. When the home menu appears, reinsert your SD card.
-    5. 如果不行, 应该清除主菜单的主题数据（Home Menu's extdata）: `/Nintendo 3DS/(32个字母长度的ID)/(32个字母长度的ID)/extdata/00000000/`
+1. 尝试将SD卡拿出后启动系统，启动完成后将SD卡插回。
+   1. 长按电源键关闭你的3DS。
+   2. 拔出你的SD卡。
+   3. 启动3DS。
+   4. 桌面菜单出现后，插回SD卡。
+   5. 如果不行, 应该清除主菜单的主题数据（Home Menu's extdata）: `/Nintendo 3DS/(32个字母长度的ID)/(32个字母长度的ID)/extdata/00000000/`
        + EUR Region 欧版: 删除 `00000098`
        + JPN Region 日版: 删除 `00000082`
        + USA Region 美版: 删除 `0000008f`
@@ -168,8 +170,8 @@ permalink: /troubleshooting.html
     **这会使降级到2.1.0的New 3DS变砖头**
     1. 按住电源键强制关机.
     2. 按住 L+R+A+Up.
-    3. 3DS开机.
-    4. If you enter safe mode, update your 3DS *only if you have an entrypoint for the latest FW version and it is possible to downgrade from it* and attempt the downgrade again.
+    3. 按下电源键3DS开机.
+    4. 如果进入安全模式，*仅当你有最新固件版本进入HBL的方法，并且能进行降级的情况下*，才升级你的3DS，并再次尝试降级。
 4. 你的3DS可能已变砖头. 试着寻求帮助吧.
 
 ## <a name="ts_sys_a9lh" />安装arm9loaderhax后启动SysNAND黑屏
@@ -190,21 +192,14 @@ permalink: /troubleshooting.html
        + KOR Region 韩国: 删除 `000000A9`
        + TWN Region 台版: 删除 `000000B1`
 5. 试着无卡带 (烧录卡)启动
-7. 试试 [这个测试payload](https://mega.nz/#!YxMiGDhB!VZLv2XPSqFFzEhf4kGMXAdQtSpIGvnp2vu2W1j4o7cc/) .
-    1. Rename `/arm9loaderhax.bin`, if it exists, to something else.
-    2. Place the `arm9loaderhax.bin` from the archive linked above in your SD root.
-    3. Insert your SD card into your 3DS and power on.
-    4. Press (A). Your 3DS should power off; this means arm9loaderhax is working and something else is broken; your device is **not** bricked.
 8. 如果你之前是通过Gateway降级的, 确保使用最新版的Luma3DS(至少v6.2.3 或更高)
 9. 如果你的NAND是 3.0.0 到 4.5.0之间的, 请看这里:
-    + 下载 [Luma 3DS v6.3.1](https://github.com/AuroraWright/Luma3DS/releases/tag/v6.3.1)
-    + 复制Luma3DS v6.3.1 zip包中的 `arm9loaderhax.bin`到SD卡根目录，覆盖旧文件
+    + 确保你使用的是最新版的Luma3DS（版本号在v6.6及以上）
     + 下载 [这个文件](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) 重命名为 `firmware.bin`
     + 下载 [这个文件](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
     + 复制 `firmware.bin` 和 `cetk` 到SD卡`/luma/`目录
     + 更新你的3DS后，删除上面的这两个文件
-    + 更新3DS后，将老的v6.3.1版本Luma3DS的`arm9loaderhax.bin`替换成最新版本的
-9. 试着参考[9.2.0 ctrtransfer](9.2.0-ctrtransfer)
+9. 试着参考[9.2.0 ctrtransfer](9.2.0-ctrtransfer.html)
 10. 上 [游戏集合](https://youxijihe.com)求助.
 
 ## <a name="ts_sys_blue" />启动后蓝屏 (bootrom error)

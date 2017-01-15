@@ -3,9 +3,6 @@ title: "Decrypt9 (Homebrew Launcher)"
 permalink: /decrypt9-(homebrew-launcher).html
 ---
 
-因为有一个bug，safehax需要一个能正常工作的卡带（3ds，nds，烧录卡等）插入机器才能成功。作为一个临时解决方案，系统版本在9.2.0及以下的用户可以无需卡带，直接拷贝Decrypt9WIP.3dsx到/3ds/下，无需破解即可运行。
-{: .notice--info}
-
 #### 你需要森么
 
 * 最新版的 [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
